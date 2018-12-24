@@ -21,12 +21,15 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: 'red' },
 
   /*
   ** Global CSS
   */
   css: [
+    '@/assets/reset.scss',
+    '@/assets/var.scss',
+    '@/assets/util.scss'
   ],
 
   /*
@@ -49,7 +52,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }
