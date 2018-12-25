@@ -9,7 +9,7 @@
 
 
 <!-- style -->
-<style lang="scss">
+<style scoped lang="scss">
   @import '@/assets/mq.scss';
 
 </style>
