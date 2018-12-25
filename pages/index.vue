@@ -72,11 +72,9 @@
         if (pageXOffset <= 20) {
           special.classList.add('blue')
           app.style.transform = "none !important"
-          // app.classList.remove('blue')
         }
         else {
           special.classList.remove('blue')
-          // app.classList.add('blue')
         }
       })
     }
