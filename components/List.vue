@@ -1,10 +1,11 @@
 <!-- layout -->
 <template>
-  <main>
+  <ul>
 
-    <List/>
+    <li>01</li>
+    <li>02</li>
 
-  </main>
+  </ul>
 </template>
 
 
@@ -12,15 +13,15 @@
 <style lang="scss">
   @import '@/assets/mq.scss';
 
+
+
 </style>
 
 
 <!-- logic -->
 <script>
-  import List from '@/components/List.vue';
 
   export default {
-    components: { List },
     mounted() {
 
     }
