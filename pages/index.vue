@@ -2,9 +2,9 @@
 <template>
   <section class="app">
 
+    <div class="card"></div>
+    <div class="card"></div>
     <div class="special card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
     <div class="card"></div>
     <div class="card"></div>
     <div class="card"></div>
@@ -21,7 +21,7 @@
   @import '@/assets/mq.scss';
 
   .app {
-    // border: 4px solid pink;
+    border: 4px solid pink;
     height: 100vh;
     overflow-x: scroll;
     display: flex;
@@ -35,6 +35,11 @@
     background: #fff;
   }
 
+  .blue { background: blue; }
+  .red  { background: red; }
+
+  .none { transform: matrix(0, 0, 0, 0, 0, 0); }
+
 </style>
 
 
@@ -43,8 +48,11 @@
 
   export default {
     mounted() {
+      const special = document.querySelector('.special')
+      const cards = document.querySelector('.cards')
+
+      const main = document.querySelector('main')
       const app = document.querySelector('.app')
-      let special = document.querySelector('.special')
       let pageXOffset = window.pageXOffset
 
       app.addEventListener('scroll', () => {
@@ -59,7 +67,17 @@
       	})
 
       	pageXOffset = newPageOffset
-        // requestAnimationFrame(callback)
+        console.log(pageXOffset)
+
+        if (pageXOffset <= 20) {
+          special.classList.add('blue')
+          app.style.transform = "none !important"
+          // app.classList.remove('blue')
+        }
+        else {
+          special.classList.remove('blue')
+          // app.classList.add('blue')
+        }
       })
     }
   }
