@@ -8,9 +8,9 @@
     <div class="card"></div>
     <div class="card"></div>
     <div class="card"></div>
+    <!-- <div class="card"></div>
     <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
+    <div class="card"></div> -->
 
   </section>
 </template>
@@ -22,7 +22,7 @@
 
   .app {
     // border: 4px solid pink;
-    height: 64vh;
+    height: 100vh;
     overflow-x: scroll;
     display: flex;
   }
@@ -30,8 +30,9 @@
   .card {
     --unit: 32px;
     margin: var(--unit);
-    min-width: 33vw; height: calc(100% - calc(var(--unit) * 2));
-    background: gray;
+    min-width: 37vw; height: 28.8rem;
+    // height: calc(100% - calc(var(--unit) * 2));
+    background: #fff;
   }
 
 </style>
@@ -58,7 +59,7 @@
       	})
 
       	pageXOffset = newPageOffset
-        requestAnimationFrame(render)
+        // requestAnimationFrame(callback)
       })
     }
   }
