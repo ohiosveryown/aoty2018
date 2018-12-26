@@ -89,7 +89,7 @@
 
   li {
     margin: calc(var(--unit) * 3);
-    transition: transform 250ms ease;
+    transition: transform 500ms ease 900ms;
     will-change: transform;
   }
 
