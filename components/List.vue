@@ -2,11 +2,66 @@
 <template>
   <ul>
 
-    <li><img src="@/assets/img/d01.jpg" alt=""></li>
-    <li><img src="@/assets/img/d02.jpg" alt=""></li>
-    <li><img src="@/assets/img/d03.jpg" alt=""></li>
-    <li><img src="@/assets/img/d04.jpg" alt=""></li>
-    <li><img src="@/assets/img/d05.jpg" alt=""></li>
+    <!-- 🎧 -->
+    <li>
+      <a href="#">
+        <h3 class="mb-2 tar">5</h3>
+        <figure>
+          <img src="@/assets/img/d01.jpg" alt="">
+        </figure>
+        <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
+        <span>Kids See Ghosts</span>
+      </a>
+    </li>
+
+    <!-- 🎧 -->
+    <li>
+      <a href="#">
+        <h3 class="mb-2 tar">4</h3>
+        <figure>
+          <img src="@/assets/img/d02.jpg" alt="">
+        </figure>
+        <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
+        <span>Kids See Ghosts</span>
+      </a>
+    </li>
+
+    <!-- 🎧 -->
+    <li>
+      <a href="#">
+        <h3 class="mb-2 tar">3</h3>
+        <figure>
+          <img src="@/assets/img/d03.jpg" alt="">
+        </figure>
+        <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
+        <span>Kids See Ghosts</span>
+      </a>
+    </li>
+
+    <!-- 🎧 -->
+    <li>
+      <a href="#">
+        <h3 class="mb-2 tar">2</h3>
+        <figure>
+          <img src="@/assets/img/d04.jpg" alt="">
+        </figure>
+        <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
+        <span>Kids See Ghosts</span>
+      </a>
+    </li>
+
+    <!-- 🎧 -->
+    <li>
+      <a href="#">
+        <h3 class="mb-2 tar">1</h3>
+        <figure>
+          <img src="@/assets/img/d06.jpg" alt="">
+        </figure>
+        <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
+        <span>Kids See Ghosts</span>
+      </a>
+    </li>
+
 
   </ul>
 </template>
@@ -19,6 +74,7 @@
   ul {
     display: flex;
     max-height: 100vh; height: 100vh;
+    color: var(--cloud);
     overflow-x: scroll;
     -webkit-oveflow-scroll: touch;
 
@@ -32,11 +88,7 @@
   }
 
   li {
-    margin: 24px;
-    min-width: 38vw; height: 28.8rem;
-    overflow: hidden;
-    // background: var(--cloud);
-    color: var(--gravity);
+    margin: calc(var(--unit) * 3);
     transition: transform 250ms ease;
     will-change: transform;
   }
@@ -49,6 +101,12 @@
 
   li:nth-of-type(1) {
     margin-left: 0;
+  }
+
+  figure {
+    min-width: 38vw; height: 28.8rem;
+    overflow: hidden;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,1);
   }
 
   img {

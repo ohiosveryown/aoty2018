@@ -29,7 +29,8 @@ module.exports = {
   css: [
     '@/assets/reset.scss',
     '@/assets/var.scss',
-    '@/assets/util.scss'
+    '@/assets/util.scss',
+    '@/assets/type.scss'
   ],
 
   /*
