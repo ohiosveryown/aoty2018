@@ -76,3 +76,11 @@
 .op-7 { opacity: 0.7; }
 .op-8 { opacity: 0.8; }
 .op-9 { opacity: 0.9; }
+
+.pageFade-enter-active, .pageFade-leave-active {
+  transition: all 800ms ease;
+}
+
+.pageFade-enter, .pageFade-leave-active {
+  opacity: 0;
+}

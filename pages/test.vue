@@ -1,9 +1,9 @@
 <!-- layout -->
 <template>
   <main>
-    <nuxt-link to="/test">Test</nuxt-link>
 
-    <List/>
+    <nuxt-link to="/">Home</nuxt-link>
+    <h1>Test</h1>
 
   </main>
 </template>
@@ -18,14 +18,12 @@
 
 <!-- logic -->
 <script>
-  import List from '@/components/List.vue';
 
   export default {
     transition: {
       name: 'pageFade',
       mode: 'out-in'
     },
-    components: { List },
     mounted() {
 
     }
