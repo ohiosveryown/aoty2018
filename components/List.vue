@@ -1,69 +1,78 @@
 <!-- layout -->
 <template>
-  <ul>
+  <section>
 
-    <!-- 🎧 -->
-    <li>
-      <a href="#">
-        <h3 class="mb-2 tar">5</h3>
-        <figure>
-          <img src="@/assets/img/d01.jpg" alt="">
-        </figure>
-        <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
-        <span>Kids See Ghosts</span>
-      </a>
-    </li>
+    <ul>
 
-    <!-- 🎧 -->
-    <li>
-      <a href="#">
-        <h3 class="mb-2 tar">4</h3>
-        <figure>
-          <img src="@/assets/img/d02.jpg" alt="">
-        </figure>
-        <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
-        <span>Kids See Ghosts</span>
-      </a>
-    </li>
+      <!-- 🎧 -->
+      <li>
+        <a href="#">
+          <h3 class="mb-2 tar">5</h3>
+          <figure>
+            <img src="@/assets/img/d01.jpg" alt="">
+          </figure>
+          <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
+          <span>Kids See Ghosts</span>
+        </a>
+      </li>
 
-    <!-- 🎧 -->
-    <li>
-      <a href="#">
-        <h3 class="mb-2 tar">3</h3>
-        <figure>
-          <img src="@/assets/img/d03.jpg" alt="">
-        </figure>
-        <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
-        <span>Kids See Ghosts</span>
-      </a>
-    </li>
+      <!-- 🎧 -->
+      <li>
+        <a href="#">
+          <h3 class="mb-2 tar">4</h3>
+          <figure>
+            <img src="@/assets/img/d02.jpg" alt="">
+          </figure>
+          <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
+          <span>Kids See Ghosts</span>
+        </a>
+      </li>
 
-    <!-- 🎧 -->
-    <li>
-      <a href="#">
-        <h3 class="mb-2 tar">2</h3>
-        <figure>
-          <img src="@/assets/img/d04.jpg" alt="">
-        </figure>
-        <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
-        <span>Kids See Ghosts</span>
-      </a>
-    </li>
+      <!-- 🎧 -->
+      <li>
+        <a href="#">
+          <h3 class="mb-2 tar">3</h3>
+          <figure>
+            <img src="@/assets/img/d03.jpg" alt="">
+          </figure>
+          <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
+          <span>Kids See Ghosts</span>
+        </a>
+      </li>
 
-    <!-- 🎧 -->
-    <li>
-      <a href="#">
-        <h3 class="mb-2 tar">1</h3>
-        <figure>
-          <img src="@/assets/img/d06.jpg" alt="">
-        </figure>
-        <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
-        <span>Kids See Ghosts</span>
-      </a>
-    </li>
+      <!-- 🎧 -->
+      <li>
+        <a href="#">
+          <h3 class="mb-2 tar">2</h3>
+          <figure>
+            <img src="@/assets/img/d04.jpg" alt="">
+          </figure>
+          <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
+          <span>Kids See Ghosts</span>
+        </a>
+      </li>
 
+      <!-- 🎧 -->
+      <li>
+        <a href="#">
+          <h3 class="mb-2 tar">1</h3>
+          <figure>
+            <img src="@/assets/img/d06.jpg" alt="">
+          </figure>
+          <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
+          <span>Kids See Ghosts</span>
+        </a>
+      </li>
 
-  </ul>
+    </ul>
+
+    <header class="">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+    </header>
+
+  </section>
 </template>
 
 
@@ -116,6 +125,29 @@
     will-change: transform;
   }
 
+  header {
+    position: fixed;
+    top: 24px;
+    width: 100vw;
+  }
+
+  .progress-container {
+    position: relative;
+    margin: 0 auto;
+    width: 64vw;
+    height: 4px;
+    border-radius: 50px;
+    background: #ccc;
+    overflow: hidden;
+  }
+
+  .progress-bar {
+    height: 4px;
+    background: tomato;
+    border-radius: 50px;
+    width: 0%;
+  }
+
 </style>
 
 
@@ -124,6 +156,8 @@
 
   export default {
     mounted() {
+      const section = document.querySelector('section')
+      const progressBar = document.querySelector('.progress-bar')
       const list = document.querySelector('ul')
       let currentPixel = list.scrollLeft
 
@@ -138,6 +172,13 @@
       }
 
       looper()
+
+      list.addEventListener('scroll', () => {
+        const winScroll = list.scrollLeft || list.scrollLeft
+        const width = list.scrollWidth - list.clientWidth
+        const scrolled = (winScroll / width) * 100
+        progressBar.style.width = scrolled + "%"
+      })
     }
   }
 
