@@ -66,11 +66,11 @@
 
     </ul>
 
-    <header class="">
+    <footer>
       <div class="progress-container">
         <div class="progress-bar" id="myBar"></div>
       </div>
-    </header>
+    </footer>
 
   </section>
 </template>
@@ -113,7 +113,7 @@
   }
 
   figure {
-    min-width: 38vw; height: 28.8rem;
+    min-width: 38vw; max-width: 54.4rem; height: 28.8rem;
     overflow: hidden;
     box-shadow: 0 0 40px 0 rgba(0,0,0,1);
   }
@@ -125,27 +125,29 @@
     will-change: transform;
   }
 
-  header {
+  footer {
     position: fixed;
-    top: 24px;
+    bottom: 8rem;
     width: 100vw;
   }
 
   .progress-container {
     position: relative;
     margin: 0 auto;
-    width: 64vw;
-    height: 4px;
-    border-radius: 50px;
-    background: #ccc;
+    width: 40rem;
+    height: 2px;
+    border-radius: 200px;
+    background: rgba(255,255,255,.4);
     overflow: hidden;
   }
 
   .progress-bar {
-    height: 4px;
-    background: tomato;
-    border-radius: 50px;
-    width: 0%;
+    height: 2px;
+    background: rgba(255,255,255,1);
+    border-radius: 200px;
+    transform: scaleX(0);
+    transform-origin: left;
+    will-change: transform;
   }
 
 </style>
@@ -176,8 +178,9 @@
       list.addEventListener('scroll', () => {
         const winScroll = list.scrollLeft || list.scrollLeft
         const width = list.scrollWidth - list.clientWidth
-        const scrolled = (winScroll / width) * 100
-        progressBar.style.width = scrolled + "%"
+        const scrolled = (winScroll / width)
+        progressBar.style.transform = `scaleX( ${scrolled} )`
+        console.log(scrolled)
       })
     }
   }
