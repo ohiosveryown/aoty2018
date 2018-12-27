@@ -97,6 +97,7 @@
   }
 
   li {
+    transform: translateY(-4rem);
     margin: calc(var(--unit) * 3);
     transition: transform 500ms ease 900ms;
     will-change: transform;
@@ -127,7 +128,7 @@
 
   footer {
     position: fixed;
-    bottom: 8rem;
+    bottom: 6.4rem;
     width: 100vw;
   }
 
@@ -137,7 +138,7 @@
     width: 40rem;
     height: 2px;
     border-radius: 200px;
-    background: rgba(255,255,255,.4);
+    background: rgba(255,255,255,.24);
     overflow: hidden;
   }
 
