@@ -71,9 +71,13 @@
     </ul>
 
     <footer>
-      <h6 class="scroll mb-2 op-5 tac">Scroll</h6>
+      <h6 class="scroll mb-2 tac">
+        Scroll
+        <span class="scroll-right">Right </span>
+        <span class="scroll-left">or Left</span>
+      </h6>
       <div class="progress-container">
-        <div class="progress-bar" id="myBar"></div>
+        <div class="progress-bar"></div>
       </div>
     </footer>
 
@@ -154,6 +158,13 @@
     width: 100vw;
   }
 
+  .scroll {
+    transition: opacity 400ms ease;
+    opacity: 0;
+  }
+
+  .scroll-left { display: none; }
+
   .progress-container {
     position: relative;
     margin: 0 auto;
@@ -187,29 +198,23 @@
       const scroll = document.querySelector('.scroll')
       const list = document.querySelector('ul')
       const listContent = document.querySelector('li')
+      const scrollLeft = document.querySelector('.scroll-left')
+      const scrollRight = document.querySelector('.scroll-right')
       let currentPixel = list.scrollLeft
 
-      // let mousePosition = (e) => { console.log(e.y) }
       document.addEventListener('mousemove', mousePosition)
 
       function mousePosition(e) {
-        console.log(e.y)
+        // console.log(e.y)
 
         if (e.y > 200) {
-          scroll.classList.add('op-9')
+          scroll.style.opacity = '1'
+          // scrollRight.style.opacity = '1'
         } else {
-          scroll.classList.remove('op-9')
+          scroll.style.opacity = '0'
+          // scrollRight.style.opacity = '0'
         }
       }
-
-
-      // listContent.addEventListener('mouseenter', () => {
-      //   scroll.classList.add('op-9')
-      // })
-      //
-      // listContent.addEventListener('mouseleave', () => {
-      //   scroll.classList.remove('op-9')
-      // })
 
       const looper = () => {
         const newPixel = list.scrollLeft
@@ -228,7 +233,15 @@
         const width = list.scrollWidth - list.clientWidth
         const scrolled = (winScroll / width)
         progressBar.style.transform = `scaleX( ${scrolled} )`
-        // console.log(scrolled)
+        console.log(scrolled)
+
+        if (scrolled > .25) {
+          // scrollLeft.style.opacity = '1'
+          scrollLeft.style.display = 'inline'
+        } else {
+          // scrollLeft.style.opacity = '0'
+          scrollLeft.style.display = 'none'
+        }
       })
     }
   }
