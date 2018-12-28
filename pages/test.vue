@@ -15,7 +15,7 @@
     <header class="">
 
       <figure>
-        <div class=" eyebrow">
+        <div class="eyebrow">
           <nuxt-link class="home-link op-4" to="/">Go Back</nuxt-link>
           <h5>5</h5>
         </div>
@@ -23,9 +23,9 @@
       </figure>
 
       <article class="">
-        <h4 class="op-4">Genre</h4>
-        <h1>Tranquilty Base Hotel &amp; Casino</h1>
-        <h3>Arctic Monkeys</h3>
+        <h4 class="op-4 f-space">Alternative</h4>
+        <h1 class="f-mabry">Tranquilty Base Hotel &amp; Casino</h1>
+        <h3 class="f-space">Arctic Monkeys</h3>
       </article>
     </header>
 

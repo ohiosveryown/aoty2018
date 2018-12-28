@@ -1,8 +1,17 @@
 @font-face {
+	font-family: 'Mabry';
+	src: url('~static/font/Mabry.woff');
+	src: local('☺'), url('~static/font/Mabry.woff') format('woff');
+}
+
+@font-face {
 	font-family: 'SpaceGrotesk';
 	src: url('~static/font/SpaceGrotesk.woff');
 	src: local('☺'), url('~static/font/SpaceGrotesk.woff') format('woff');
 }
+
+.f-mabry { font-family: 'Mabry', var(--system_font); }
+.f-space { font-family: 'SpaceGrotesk', var(--system_font); }
 
 .tac { text-align: center; }
 .tar { text-align: right; }
