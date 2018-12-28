@@ -1,2 +1,10 @@
+@font-face {
+	font-family: 'SpaceGrotesk';
+	src: url('~static/font/SpaceGrotesk.woff');
+	src: local('☺'), url('~static/font/SpaceGrotesk.woff') format('woff');
+}
+
 .tac { text-align: center; }
 .tar { text-align: right; }
+
+p { font-family: 'SpaceGrotesk', var(--system_font); }

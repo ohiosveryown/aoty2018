@@ -76,3 +76,10 @@
 .op-7 { opacity: 0.7; }
 .op-8 { opacity: 0.8; }
 .op-9 { opacity: 0.9; }
+
+.mw {
+  position: relative;
+  margin: 0 auto;
+  max-width: var(--max_width);
+  width: 88vw;
+}
