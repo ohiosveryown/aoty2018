@@ -2,18 +2,22 @@
 <template>
   <section>
 
+    <div class="cover-01"/>
+    <div class="cover-02"/>
+    <div class="cover-03"/>
+
     <ul>
 
       <!-- 🎧 -->
       <li>
-        <a href="#">
+        <nuxt-link class="linkOne" to="/test">
           <h3 class="mb-2 tar">5</h3>
           <figure>
             <img src="@/assets/img/d01.jpg" alt="">
           </figure>
           <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
           <span>Kids See Ghosts</span>
-        </a>
+        </nuxt-link>
       </li>
 
       <!-- 🎧 -->
@@ -169,6 +173,26 @@
     will-change: transform;
   }
 
+  .cover-01, .cover-02, .cover-03 {
+    position: fixed;
+    top: 0; left: 0;
+    z-index: var(--zmax);
+    width: 100vw; height: 33vh;
+    // background: #0b0b0b;
+    background: #28262a;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1);
+  }
+
+  .cover-02 { top: 33vh; }
+  .cover-03 { top: 66vh; }
+
+  .cover-01-active, .cover-02-active, .cover-03-active { transform: scaleX(1); }
+  .cover-02-active { transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1) 150ms; }
+  .cover-03-active { transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1) 300ms; }
+
+
 </style>
 
 
@@ -177,6 +201,18 @@
 
   export default {
     mounted() {
+
+      const coverOne = document.querySelector('.cover-01')
+      const coverTwo = document.querySelector('.cover-02')
+      const coverThree = document.querySelector('.cover-03')
+      const link = document.querySelector('.linkOne')
+
+      link.addEventListener('click', () => {
+        coverOne.classList.add('cover-01-active')
+        coverTwo.classList.add('cover-02-active')
+        coverThree.classList.add('cover-03-active')
+      })
+
       const footer = document.querySelector('footer')
       const progressContainer = document.querySelector('.progress-container')
       const progressBar = document.querySelector('.progress-bar')
