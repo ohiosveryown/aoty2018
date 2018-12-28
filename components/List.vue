@@ -2,10 +2,6 @@
 <template>
   <section>
 
-    <div class="cover-01"/>
-    <div class="cover-02"/>
-    <div class="cover-03"/>
-
     <ul>
 
       <!-- 🎧 -->
@@ -89,18 +85,6 @@
 <!-- style -->
 <style scoped lang="scss">
   @import '@/assets/mq.scss';
-
-  .cover-01, .cover-02, .cover-03 {
-    position: fixed;
-    top: 0; left: 0;
-    z-index: var(--zmax);
-    width: 100vw; height: 33vh;
-    background: pink;
-    transform: scaleX(.01);
-    transform-origin: left;
-  }
-
-
 
   ul {
     display: flex;
@@ -230,7 +214,7 @@
         const width = list.scrollWidth - list.clientWidth
         const scrolled = (winScroll / width)
         progressBar.style.transform = `scaleX( ${scrolled} )`
-        console.log(scrolled)
+        // console.log(scrolled)
 
         if (scrolled > .2) { scrollLeft.style.display = 'inline', scrollOr.style.display = 'inline' }
         else { scrollLeft.style.display = 'none', scrollOr.style.display = 'none' }

@@ -3,6 +3,10 @@ const pkg = require('./package')
 module.exports = {
   mode: 'universal',
 
+  router: {
+    middleware: 'delay'
+  },
+
   /*
   ** Headers of the page
   */
@@ -24,7 +28,7 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: 'red' },
+  loading: false,
 
   /*
   ** Global CSS
