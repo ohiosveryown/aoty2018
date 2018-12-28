@@ -71,10 +71,11 @@
     </ul>
 
     <footer>
-      <h6 class="scroll mb-2 tac">
+      <h6 class="scroll mb-1 tac">
         Scroll
         <span class="scroll-right">Right </span>
-        <span class="scroll-left">or Left</span>
+        <span class="or">or </span>
+        <span class="scroll-left">Left</span>
       </h6>
       <div class="progress-container">
         <div class="progress-bar"></div>
@@ -163,7 +164,7 @@
     opacity: 0;
   }
 
-  .scroll-left { display: none; }
+  .scroll-left, .or { display: none; }
 
   .progress-container {
     position: relative;
@@ -199,6 +200,7 @@
       const list = document.querySelector('ul')
       const listContent = document.querySelector('li')
       const scrollLeft = document.querySelector('.scroll-left')
+      const scrollOr = document.querySelector('.or')
       const scrollRight = document.querySelector('.scroll-right')
       let currentPixel = list.scrollLeft
 
@@ -207,13 +209,8 @@
       function mousePosition(e) {
         // console.log(e.y)
 
-        if (e.y > 200) {
-          scroll.style.opacity = '1'
-          // scrollRight.style.opacity = '1'
-        } else {
-          scroll.style.opacity = '0'
-          // scrollRight.style.opacity = '0'
-        }
+        if (e.y > 200) { scroll.style.opacity = '.8' }
+        else { scroll.style.opacity = '0' }
       }
 
       const looper = () => {
@@ -235,13 +232,11 @@
         progressBar.style.transform = `scaleX( ${scrolled} )`
         console.log(scrolled)
 
-        if (scrolled > .25) {
-          // scrollLeft.style.opacity = '1'
-          scrollLeft.style.display = 'inline'
-        } else {
-          // scrollLeft.style.opacity = '0'
-          scrollLeft.style.display = 'none'
-        }
+        if (scrolled > .2) { scrollLeft.style.display = 'inline', scrollOr.style.display = 'inline' }
+        else { scrollLeft.style.display = 'none', scrollOr.style.display = 'none' }
+
+        if (scrolled >= .8) { scrollRight.style.display = 'none', scrollOr.style.display = 'none' }
+        else { scrollRight.style.display = 'inline' }
       })
     }
   }
