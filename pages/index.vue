@@ -1,7 +1,9 @@
 <!-- layout -->
 <template>
   <main>
-    <nuxt-link to="/test">Test</nuxt-link>
+    <nav>
+      <nuxt-link to="/test">Test</nuxt-link>
+    </nav>
 
     <List/>
 
@@ -12,6 +14,11 @@
 <!-- style -->
 <style scoped lang="scss">
   @import '@/assets/mq.scss';
+
+  nav {
+    position: relative;
+    z-index: var(--zmax);
+  }
 
 </style>
 

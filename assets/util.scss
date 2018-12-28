@@ -79,6 +79,20 @@
 
 .pageFade-enter-active, .pageFade-leave-active {
   transition: all 800ms ease;
+
+  .cover-01 {
+
+  }
+
+  .cover-02 {
+    top: 33vh;
+    background: dodgerblue;
+  }
+
+  .cover-03 {
+    top: 66vh;
+    background: tomato;
+  }
 }
 
 .pageFade-enter, .pageFade-leave-active {

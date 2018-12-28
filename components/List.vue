@@ -2,6 +2,10 @@
 <template>
   <section>
 
+    <div class="cover-01"/>
+    <div class="cover-02"/>
+    <div class="cover-03"/>
+
     <ul>
 
       <!-- 🎧 -->
@@ -67,6 +71,7 @@
     </ul>
 
     <footer>
+      <h6 class="scroll mb-2 op-5 tac">Scroll</h6>
       <div class="progress-container">
         <div class="progress-bar" id="myBar"></div>
       </div>
@@ -79,6 +84,18 @@
 <!-- style -->
 <style scoped lang="scss">
   @import '@/assets/mq.scss';
+
+  .cover-01, .cover-02, .cover-03 {
+    position: fixed;
+    top: 0; left: 0;
+    z-index: var(--zmax);
+    width: 100vw; height: 33vh;
+    background: pink;
+    transform: scaleX(.01);
+    transform-origin: left;
+  }
+
+
 
   ul {
     display: flex;
@@ -93,7 +110,7 @@
   }
 
   ul::-webkit-scrollbar {
-    display: none;  // Safari and Chrome
+    display: none;  // safari and shrome
   }
 
   li {
@@ -102,6 +119,10 @@
     transition: transform 500ms ease 900ms;
     will-change: transform;
   }
+
+  // li:nth-of-type(1) { transform: translateY(-10rem); }
+  // li:nth-of-type(2) { transform: translateY(0rem); }
+  // li:nth-of-type(3) { transform: translateY(-8rem); }
 
   li:hover {
     @include breakpoint(mdl) {
@@ -127,6 +148,7 @@
   }
 
   footer {
+    // border: 1px solid pink;
     position: fixed;
     bottom: 6.4rem;
     width: 100vw;
@@ -159,10 +181,35 @@
 
   export default {
     mounted() {
-      const section = document.querySelector('section')
+      const footer = document.querySelector('footer')
+      const progressContainer = document.querySelector('.progress-container')
       const progressBar = document.querySelector('.progress-bar')
+      const scroll = document.querySelector('.scroll')
       const list = document.querySelector('ul')
+      const listContent = document.querySelector('li')
       let currentPixel = list.scrollLeft
+
+      // let mousePosition = (e) => { console.log(e.y) }
+      document.addEventListener('mousemove', mousePosition)
+
+      function mousePosition(e) {
+        console.log(e.y)
+
+        if (e.y > 200) {
+          scroll.classList.add('op-9')
+        } else {
+          scroll.classList.remove('op-9')
+        }
+      }
+
+
+      // listContent.addEventListener('mouseenter', () => {
+      //   scroll.classList.add('op-9')
+      // })
+      //
+      // listContent.addEventListener('mouseleave', () => {
+      //   scroll.classList.remove('op-9')
+      // })
 
       const looper = () => {
         const newPixel = list.scrollLeft
@@ -181,7 +228,7 @@
         const width = list.scrollWidth - list.clientWidth
         const scrolled = (winScroll / width)
         progressBar.style.transform = `scaleX( ${scrolled} )`
-        console.log(scrolled)
+        // console.log(scrolled)
       })
     }
   }
