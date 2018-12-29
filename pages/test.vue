@@ -58,7 +58,7 @@
     position: fixed;
     top: 0; left: 0;
     z-index: var(--zmax);
-    width: 100vw; height: 33vh;
+    width: 100vw; height: 34vh;
     background: #28262a;
     // background: pink;
     transform: scaleX(1);
