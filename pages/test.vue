@@ -15,16 +15,16 @@
     <header class="">
 
       <figure>
-        <div class="eyebrow">
-          <nuxt-link class="home-link op-4" to="/">Go Back</nuxt-link>
-          <h5>5</h5>
+        <div class="eyebrow mb-2">
+          <nuxt-link class="home-link f-space op-4" to="/">Go Back</nuxt-link>
+          <h3 class="f-mabry">5</h3>
         </div>
         <img src="@/assets/img/d01.jpg" alt="">
       </figure>
 
       <article class="">
-        <h4 class="op-4 f-space">Alternative</h4>
-        <h1 class="f-mabry">Tranquilty Base Hotel &amp; Casino</h1>
+        <h4 class="op-4 mb-3 f-space">Alternative</h4>
+        <h1 class="mb-2 f-mabry">Tranquilty Base Hotel &amp; Casino</h1>
         <h3 class="f-space">Arctic Monkeys</h3>
       </article>
     </header>

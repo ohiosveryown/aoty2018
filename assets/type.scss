@@ -1,3 +1,5 @@
+@import '@/assets/mq.scss';
+
 @font-face {
 	font-family: 'Mabry';
 	src: url('~static/font/Mabry.woff');
@@ -16,4 +18,21 @@
 .tac { text-align: center; }
 .tar { text-align: right; }
 
-p { font-family: 'SpaceGrotesk', var(--system_font); }
+h1 {
+  @include breakpoint(mdl) {
+    font-size: 4vw;
+    line-height: 1;
+  }
+}
+
+h3 {
+  @include breakpoint(mdl) {
+    font-size: 2.4rem;
+    line-height: 1;
+  }
+}
+
+p {
+  font-family: 'SpaceGrotesk', var(--system_font);
+  @include breakpoint(mdl) { font-size: 2rem; line-height: 1.6; }
+}
