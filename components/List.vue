@@ -9,7 +9,7 @@
     <ul class="">
 
       <!-- 🎧 -->
-      <li>
+      <li class="">
         <nuxt-link class="linkOne" to="/test">
           <h3 class="f-mabry mb-2 tar">5</h3>
           <figure class="mb-3">
@@ -91,13 +91,15 @@
   @import '@/assets/mq.scss';
 
   ul {
-    display: flex;
-    max-height: 100vh; height: 100vh;
+    // display: flex;
+    max-height: 100vh; height: 80vh;
     color: var(--cloud);
     overflow-x: scroll;
     -webkit-oveflow-scroll: touch;
+    white-space: nowrap;
 
     @include breakpoint(mdl) {
+      height: 100vh;
       align-items: center;
     }
   }
@@ -107,8 +109,10 @@
   }
 
   li {
-    margin: 6.4rem .8rem .8rem;
+    display:inline-block;
+    margin: 8rem .8rem .8rem;
     // transform: translateY(8rem);
+    height: 70vh;
     transition: transform 500ms ease 900ms;
     will-change: transform;
     -webkit-oveflow-scroll: touch;
@@ -116,7 +120,7 @@
     @include breakpoint(md) {
       margin: calc(var(--unit) * 3);
       margin: 6.4rem 2.4rem 2.4rem;
-      transform: translateY(-4rem);
+      transform: translateY(8rem);
     }
   }
 
@@ -154,8 +158,10 @@
   footer {
     // border: 1px solid pink;
     position: fixed;
-    bottom: 6.4rem;
+    bottom: 4rem;
     width: 100vw;
+
+    @include breakpoint(md) { bottom: 6.4rem; }
   }
 
   .scroll {
