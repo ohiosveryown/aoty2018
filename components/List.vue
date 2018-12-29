@@ -6,7 +6,7 @@
     <div class="cover-02"/>
     <div class="cover-03"/>
 
-    <ul>
+    <ul class="">
 
       <!-- 🎧 -->
       <li>
@@ -107,10 +107,17 @@
   }
 
   li {
-    transform: translateY(-4rem);
-    margin: calc(var(--unit) * 3);
+    margin: 6.4rem .8rem .8rem;
+    // transform: translateY(8rem);
     transition: transform 500ms ease 900ms;
     will-change: transform;
+    -webkit-oveflow-scroll: touch;
+
+    @include breakpoint(md) {
+      margin: calc(var(--unit) * 3);
+      margin: 6.4rem 2.4rem 2.4rem;
+      transform: translateY(-4rem);
+    }
   }
 
   // li:nth-of-type(1) { transform: translateY(-10rem); }
@@ -128,9 +135,13 @@
   }
 
   figure {
-    min-width: 38vw; max-width: 54.4rem; height: 28.8rem;
+    min-width: 88vw; height: 36rem;
     overflow: hidden;
     box-shadow: 0 0 40px 0 rgba(0,0,0,1);
+
+    @include breakpoint(md) {
+      min-width: 38vw; max-width: 54.4rem; height: 28.8rem;
+    }
   }
 
   img {
@@ -157,11 +168,15 @@
   .progress-container {
     position: relative;
     margin: 0 auto;
-    width: 40rem;
+    width: 64%;
     height: 2px;
     border-radius: 200px;
     background: rgba(255,255,255,.24);
     overflow: hidden;
+
+    @include breakpoint(md) {
+      width: 40rem;
+    }
   }
 
   .progress-bar {
