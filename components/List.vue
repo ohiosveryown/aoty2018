@@ -119,7 +119,7 @@
     @include breakpoint(md) {
       margin: calc(var(--unit) * 3);
       margin: 6.4rem 2.4rem 2.4rem;
-      transform: translateY(8rem);
+      transform: translateY(6.4rem);
     }
   }
 
@@ -252,17 +252,17 @@
         else { scroll.style.opacity = '0' }
       }
 
-      const looper = () => {
-        const newPixel = list.scrollLeft
-        const diff = newPixel - currentPixel
-        const speed = -diff * .15
-
-        list.style.transform = "skewX(" + speed +"deg)"
-        currentPixel = newPixel
-        requestAnimationFrame(looper)
-      }
-
-      looper()
+      // const looper = () => {
+      //   const newPixel = list.scrollLeft
+      //   const diff = newPixel - currentPixel
+      //   const speed = -diff * .15
+      //
+      //   list.style.transform = "skewX(" + speed +"deg)"
+      //   currentPixel = newPixel
+      //   requestAnimationFrame(looper)
+      // }
+      //
+      // looper()
 
       list.addEventListener('scroll', () => {
         const winScroll = list.scrollLeft || list.scrollLeft
