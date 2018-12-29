@@ -19,10 +19,10 @@
 .tar { text-align: right; }
 
 h1 {
-  @include breakpoint(mdl) {
-    font-size: 4vw;
-    line-height: 1;
-  }
+  font-size: 3.2rem;
+  line-height: 1;
+
+  @include breakpoint(mdl) { font-size: 4vw; }
 }
 
 h3 {

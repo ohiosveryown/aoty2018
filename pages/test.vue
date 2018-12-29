@@ -15,7 +15,7 @@
     <header class="">
 
       <figure>
-        <div class="eyebrow mb-2">
+        <div class="eyebrow">
           <nuxt-link class="home-link f-space op-4" to="/">Go Back</nuxt-link>
           <h3 class="f-mabry">5</h3>
         </div>
@@ -23,9 +23,9 @@
       </figure>
 
       <article class="">
-        <h4 class="op-4 mb-3 f-space">Alternative</h4>
-        <h1 class="mb-2 f-mabry">Tranquilty Base Hotel &amp; Casino</h1>
-        <h3 class="f-space">Arctic Monkeys</h3>
+        <h4 class="genre op-4 f-space">Alternative</h4>
+        <h1 class="album f-mabry">Tranquilty Base Hotel &amp; Casino</h1>
+        <h3 class="artist f-space">Arctic Monkeys</h3>
       </article>
     </header>
 
@@ -95,9 +95,24 @@
   }
 
   main {
+    margin: 12rem auto 8rem auto;
     @include breakpoint(mdl) {
       margin: 9.6rem auto 9.6rem auto;
     }
+  }
+
+  figure, .eyebrow, .genre {
+    margin-bottom: calc(var(--unit) * 2);
+  }
+
+  .album {
+    margin-bottom: 1rem;
+    @include breakpoint(mdl) { margin-bottom: calc(var(--unit) * 2); }
+  }
+
+  .artist {
+    margin-top: -.4rem;
+    @include breakpoint(mdl) { margin-top: 0; }
   }
 
   .figure-eyebrow {
@@ -110,6 +125,8 @@
 
   header {
     display: flex;
+    flex-direction: column;
+    @include breakpoint(mdl) { flex-direction: row; }
   }
 
   header > figure {
@@ -142,15 +159,6 @@
       width: grid-width(6);
     }
   }
-
-  // p {
-  //   margin: 0 auto;
-  //   text-align: justify;
-  //
-  //   @include breakpoint(mdl) {
-  //     width: grid-width(6);
-  //   }
-  // }
 
   .copy {
     @include breakpoint(mdl) {
