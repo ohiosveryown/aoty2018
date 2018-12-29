@@ -11,67 +11,67 @@
       <!-- 🎧 -->
       <li>
         <nuxt-link class="linkOne" to="/test">
-          <h3 class="mb-2 tar">5</h3>
-          <figure>
+          <h3 class="f-mabry mb-2 tar">5</h3>
+          <figure class="mb-3">
             <img src="@/assets/img/d01.jpg" alt="">
           </figure>
-          <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
-          <span>Kids See Ghosts</span>
+          <figcaption><h3 class="mb-0 f-mabry">Kids See Ghosts — Rap/Hip-Hop</h3></figcaption>
+          <h5 class="f-space">Kids See Ghosts</h5>
         </nuxt-link>
       </li>
 
       <!-- 🎧 -->
       <li>
         <a href="#">
-          <h3 class="mb-2 tar">4</h3>
-          <figure>
+          <h3 class="f-mabry mb-2 tar">4</h3>
+          <figure class="mb-3">
             <img src="@/assets/img/d02.jpg" alt="">
           </figure>
-          <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
-          <span>Kids See Ghosts</span>
+          <figcaption><h3 class="mb-0 f-mabry">Kids See Ghosts — Rap/Hip-Hop</h3></figcaption>
+          <h5 class="f-space">Kids See Ghosts</h5>
         </a>
       </li>
 
       <!-- 🎧 -->
       <li>
         <a href="#">
-          <h3 class="mb-2 tar">3</h3>
-          <figure>
+          <h3 class="f-mabry mb-2 tar">3</h3>
+          <figure class="mb-3">
             <img src="@/assets/img/d03.jpg" alt="">
           </figure>
-          <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
-          <span>Kids See Ghosts</span>
+          <figcaption><h3 class="mb-0 f-mabry">Kids See Ghosts — Rap/Hip-Hop</h3></figcaption>
+          <h5 class="f-space">Kids See Ghosts</h5>
         </a>
       </li>
 
       <!-- 🎧 -->
       <li>
         <a href="#">
-          <h3 class="mb-2 tar">2</h3>
-          <figure>
+          <h3 class="f-mabry mb-2 tar">2</h3>
+          <figure class="mb-3">
             <img src="@/assets/img/d04.jpg" alt="">
           </figure>
-          <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
-          <span>Kids See Ghosts</span>
+          <figcaption><h3 class="mb-0 f-mabry">Kids See Ghosts — Rap/Hip-Hop</h3></figcaption>
+          <h5 class="f-space">Kids See Ghosts</h5>
         </a>
       </li>
 
       <!-- 🎧 -->
       <li>
         <a href="#">
-          <h3 class="mb-2 tar">1</h3>
-          <figure>
+          <h3 class="f-mabry mb-2 tar">1</h3>
+          <figure class="mb-3">
             <img src="@/assets/img/d06.jpg" alt="">
           </figure>
-          <figcaption>Kids See Ghosts — Rap/Hip-Hop</figcaption>
-          <span>Kids See Ghosts</span>
+          <figcaption><h3 class="mb-0 f-mabry">Kids See Ghosts — Rap/Hip-Hop</h3></figcaption>
+          <h5 class="f-space">Kids See Ghosts</h5>
         </a>
       </li>
 
     </ul>
 
     <footer>
-      <h6 class="scroll mb-1 tac">
+      <h6 class="f-space scroll mb-1 tac">
         Scroll
         <span class="scroll-right">Right </span>
         <span class="or">or </span>
@@ -178,11 +178,11 @@
     top: 0; left: 0;
     z-index: var(--zmax);
     width: 100vw; height: 34vh;
-    // background: #0b0b0b;
     background: #28262a;
     transform: scaleX(0);
     transform-origin: left;
     transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1);
+    will-change: transform;
   }
 
   .cover-02 { top: 33vh; }

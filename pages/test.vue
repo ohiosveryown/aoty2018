@@ -23,24 +23,24 @@
       </figure>
 
       <article class="detail-details">
-        <h4 class="genre op-4 f-space">Alternative</h4>
-        <h1 class="album f-mabry">Tranquilty Base Hotel &amp; Casino</h1>
-        <h3 class="artist f-space">Arctic Monkeys</h3>
+        <h4 class="genre op-4 f-space">Rap/Hip-Hop</h4>
+        <h1 class="album f-mabry">Kids See Ghosts</h1>
+        <h3 class="artist f-space">Kids See Ghosts</h3>
       </article>
     </header>
 
     <section class="mini-player">
-      <iframe src="https://open.spotify.com/embed/track/6iBWuaPa61mWphAvACYlDr" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/4RVbK6cV0VqWdpCDcx3hiT" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </section>
 
     <article class="detail-copy">
-      <p>In an age where nihilistic, indulgent and overcooked R&amp;B rules the roster, it’s refreshing to hear a feel-good, authentically-driven record like ‘FEELS’. The production retains a lo-fi, and unpolished feel throughout, Aalegra not tempted by radio homogeneity, slowly but surely finding her own lane.</p>
+      <p>The psychic bond between Kanye West and Kid Cudi yields a spacious and melancholy album about brokenness—thoughts are fragmented, relationships are ended, and societal ties are cut.</p>
 
-      <p>Furthermore, ‘FEELS’ boasts an impressive roster of rap’s new era progenitors, and Aalegra really comes into her own in the intersection between programmed soul and hip-hop. On ‘Sometimes’, Aalegra glides over a cold breakbeat, mirroring the careening vocal interplay that Mariah Carey made her own in the ‘90s. Breakout rapper Logic injects his inimitable flow on a moody track that grapples with circumstance and destiny. The highlight of the record comes in the form of ‘Like I Used To’, Aalegra ushering in the help of native Swede rapper Timbuktu, a song that prickles with icy, atmospheric melodrama, Aalegra at her most emotionally transparent when she is in a reminiscent, retrospective mood, a theme that imprints itself all over the record.</p>
+      <p>One of the revelations of Kids See Ghosts is how Cudi emerges as a better angel, a concerned but empathic friend who provides emotional ballast. Cudi, of course, has a few years on West in acknowledging his struggles with mental health. “Keep moving forward,” Cudi sings gently on “Reborn,” adding, “peace is something that starts with me.” His presence feels calming, cooling. The two men have always been better together than apart, lending depth and weight to each other's on-record presences. Cudi’s presence girds West's wild energy with a melancholy that adds some highlight and shadow to the weightless cartoon West has offered us. Cudi’s always struggled with being two-dimensional on his own records, but here he brings a soul and depth that his mentor can't muster.</p>
 
       <div class="byline mt-2 tar">
         <h4>
-          <a href="https://www.clashmusic.com/reviews/snoh-aalegra-feels" target="_blank">—Clash Music</a>
+          <a href="https://pitchfork.com/reviews/albums/kanye-west-kid-cudi-kids-see-ghosts/" target="_blank">—Pitchfork</a>
         </h4>
       </div>
     </article>
@@ -51,7 +51,7 @@
 
 
 <!-- style -->
-<style scoped lang="scss">
+<style lang="scss">
   @import '@/assets/mq.scss';
 
   .detail-cover-01, .detail-cover-02, .detail-cover-03 {
@@ -60,10 +60,9 @@
     z-index: var(--zmax);
     width: 100vw; height: 34vh;
     background: #28262a;
-    // background: pink;
     transform: scaleX(1);
     transform-origin: right;
-    // transition: all 500ms ease;
+    will-change: transform;
   }
 
   .detail-cover-02 { top: 33vh; }

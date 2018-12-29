@@ -26,11 +26,12 @@ h1 {
 }
 
 h3 {
-  @include breakpoint(mdl) {
-    font-size: 2.4rem;
-    line-height: 1;
-  }
+  font-size: 2rem;
+  line-height: 1;
+  @include breakpoint(mdl) { font-size: 2.4rem; }
 }
+
+h5 { font-size: 1.6rem; }
 
 p {
   font-family: 'SpaceGrotesk', var(--system_font);
