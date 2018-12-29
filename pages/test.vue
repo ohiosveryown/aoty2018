@@ -98,13 +98,17 @@
     }
   }
 
-  .detail-figure, .eyebrow, .genre {
+  .detail-figure, .eyebrow {
     margin-bottom: calc(var(--unit) * 2);
+  }
+
+  .genre {
+    margin-bottom: calc(var(--unit) * 4);
   }
 
   .album {
     margin-bottom: 1rem;
-    @include breakpoint(md) { margin-bottom: calc(var(--unit) * 2); }
+    @include breakpoint(md) { margin-bottom: calc(var(--unit) * 1); }
   }
 
   .artist {
