@@ -96,7 +96,7 @@
 
   main {
     margin: 12rem auto 8rem auto;
-    @include breakpoint(mdl) {
+    @include breakpoint(md) {
       margin: 9.6rem auto 9.6rem auto;
     }
   }
@@ -107,12 +107,12 @@
 
   .album {
     margin-bottom: 1rem;
-    @include breakpoint(mdl) { margin-bottom: calc(var(--unit) * 2); }
+    @include breakpoint(md) { margin-bottom: calc(var(--unit) * 2); }
   }
 
   .artist {
     margin-top: -.4rem;
-    @include breakpoint(mdl) { margin-top: 0; }
+    @include breakpoint(md) { margin-top: 0; }
   }
 
   .figure-eyebrow {
@@ -126,11 +126,11 @@
   header {
     display: flex;
     flex-direction: column;
-    @include breakpoint(mdl) { flex-direction: row; }
+    @include breakpoint(md) { flex-direction: row; }
   }
 
   header > figure {
-    @include breakpoint(mdl) {
+    @include breakpoint(md) {
       padding-right: 4rem;
       width: grid-width(6);
     }
@@ -145,7 +145,7 @@
     display: flex;
     flex-direction: column;
 
-    @include breakpoint(mdl) {
+    @include breakpoint(md) {
       width: grid-width(6);
       justify-content: center;
     }
@@ -154,14 +154,14 @@
   .mini-player {
     margin: 6.4rem auto auto;
 
-    @include breakpoint(mdl) {
+    @include breakpoint(md) {
       margin: 6.4rem auto 4.8rem auto;
       width: grid-width(6);
     }
   }
 
   .copy {
-    @include breakpoint(mdl) {
+    @include breakpoint(md) {
       margin: 0 auto;
       width: grid-width(6);
     }
