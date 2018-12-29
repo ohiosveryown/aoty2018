@@ -156,15 +156,18 @@
 
     @include breakpoint(md) {
       margin: 6.4rem auto 4.8rem auto;
-      width: grid-width(6);
+      width: grid-width(9);
     }
+
+    @include breakpoint(mdl) { width: grid-width(6); }
   }
 
   .copy {
     @include breakpoint(md) {
       margin: 0 auto;
-      width: grid-width(6);
+      width: grid-width(9);
     }
+    @include breakpoint(mdl) { width: grid-width(6); }
   }
 
   p { text-align: justify; }
