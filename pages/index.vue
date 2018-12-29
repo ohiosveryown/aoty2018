@@ -10,6 +10,7 @@
       <nuxt-link class="linkOne" to="/test">Test</nuxt-link>
     </nav> -->
 
+    <AppNav/>
     <List/>
 
   </main>
@@ -19,11 +20,6 @@
 <!-- style -->
 <style scoped lang="scss">
   @import '@/assets/mq.scss';
-
-  nav {
-    position: relative;
-    z-index: var(--zmax);
-  }
 
   .homeFade-enter-active, .homeFade-leave-active {
     transition: all 1600ms ease;
@@ -38,6 +34,7 @@
 
 <!-- logic -->
 <script>
+  import AppNav from '@/components/AppNav.vue';
   import List from '@/components/List.vue';
 
   export default {
@@ -45,7 +42,7 @@
       name: 'homeFade',
       mode: 'out-in'
     },
-    components: { List },
+    components: { AppNav, List },
     mounted() {
       // const link = document.querySelector('.linkOne')
       // const coverOne = document.querySelector('.cover-01')

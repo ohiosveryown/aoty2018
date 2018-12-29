@@ -92,7 +92,7 @@
 
   ul {
     display: flex;
-    max-height: 100vh; height: 80vh;
+    max-height: calc(96vh - 2rem); height: 80vh;
     color: var(--cloud);
     overflow-x: scroll;
     -webkit-oveflow-scroll: touch;
@@ -109,8 +109,7 @@
   }
 
   li {
-    margin: 9.6rem .8rem .8rem;
-    // transform: translateY(8rem);
+    margin: 5.6rem .8rem .8rem;
     height: 70%;
     transition: transform 500ms ease 900ms;
     will-change: transform;
@@ -118,7 +117,7 @@
 
     @include breakpoint(md) {
       margin: calc(var(--unit) * 3);
-      margin: 6.4rem 2.4rem 2.4rem;
+      margin: 4rem 2.4rem 2.4rem;
       transform: translateY(4vh);
     }
   }
