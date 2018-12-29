@@ -91,7 +91,7 @@
   @import '@/assets/mq.scss';
 
   ul {
-    // display: flex;
+    display: flex;
     max-height: 100vh; height: 80vh;
     color: var(--cloud);
     overflow-x: scroll;
@@ -109,10 +109,9 @@
   }
 
   li {
-    display:inline-block;
-    margin: 8rem .8rem .8rem;
+    margin: 9.6rem .8rem .8rem;
     // transform: translateY(8rem);
-    height: 70vh;
+    height: 70%;
     transition: transform 500ms ease 900ms;
     will-change: transform;
     -webkit-oveflow-scroll: touch;
