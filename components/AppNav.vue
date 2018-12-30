@@ -9,13 +9,15 @@
       </nuxt-link>
     </div>
 
-    <div class="nav-trigger f-mabry">
-      <h5>navigation</h5>
-      <div class="bridge">
-        <div class="top"/>
-        <div class="bottom"/>
+    <nuxt-link class="" to="/navOpen">
+      <div class="nav-trigger f-mabry">
+        <h5>navigation</h5>
+        <div class="bridge">
+          <div class="top"/>
+          <div class="bottom"/>
+        </div>
       </div>
-    </div>
+    </nuxt-link>
 
   </nav>
 </template>
@@ -38,6 +40,19 @@
 
   .nav-trigger {
     display: flex;
+    cursor: pointer;
+  }
+
+  // .nav-trigger:hover {
+  //   @include breakpoint(mdl) {
+  //     .top { transform: translateY(.4rem); }
+  //     .bottom { transform: translateY(.3rem); }
+  //   }
+  // }
+
+  .nav-trigger-active {
+    .top { transform: translateY(.4rem) rotate(45deg); }
+    .bottom { transform: translateY(.3rem) rotate(-45deg); }
   }
 
   .bridge {
@@ -49,11 +64,14 @@
   .top, .bottom {
     width: 2.4rem; height: .1rem;
     background: #fff;
+    transition: all 300ms ease;
+    will-change: transform;
   }
 
   .bottom {
     transform: translateY(.8rem);
   }
+
 
 </style>
 
@@ -63,7 +81,11 @@
 
   export default {
     mounted() {
-
+      // const navTrigger = document.querySelector('.nav-trigger')
+      //
+      // navTrigger.addEventListener('click', () => {
+      //   navTrigger.classList.toggle('nav-trigger-active')
+      // })
     }
   }
 

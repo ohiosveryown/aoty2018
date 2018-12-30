@@ -11,7 +11,8 @@
     </nav> -->
 
     <AppNav/>
-    <List/>
+    <!-- <List/> -->
+    <Matt/>
 
   </main>
 </template>
@@ -36,14 +37,21 @@
 <script>
   import AppNav from '@/components/AppNav.vue';
   import List from '@/components/List.vue';
+  import Matt from '@/components/Matt.vue'
 
   export default {
     transition: {
       name: 'homeFade',
       mode: 'out-in'
     },
-    components: { AppNav, List },
+    components: { AppNav, List, Matt },
     mounted() {
+      const navTrigger = document.querySelector('.nav-trigger')
+
+      navTrigger.addEventListener('click', () => {
+        navTrigger.classList.toggle('nav-trigger-active')
+      })
+
       // const link = document.querySelector('.linkOne')
       // const coverOne = document.querySelector('.cover-01')
       // const coverTwo = document.querySelector('.cover-02')

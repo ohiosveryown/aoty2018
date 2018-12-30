@@ -113,7 +113,6 @@
     height: 70%;
     transition: transform 500ms ease 900ms;
     will-change: transform;
-    -webkit-oveflow-scroll: touch;
 
     @include breakpoint(md) {
       margin: calc(var(--unit) * 3);
