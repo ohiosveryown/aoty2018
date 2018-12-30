@@ -4,7 +4,7 @@
 
   <ul class="debug">
     <!-- 🎧 -->
-    <li class="debug">
+    <li class="">
       <nuxt-link to='/test'>
         <h3 class="f-mabry tar">10</h3>
         <figure class="">
@@ -140,7 +140,8 @@
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     &::-webkit-scrollbar { display: none; } // safari & chrome
-    @include breakpoint(mdl) { max-height: 100vh; height: 100vh; }
+    @include breakpoint(mdl) { max-height: 96vh; height: 100vh; }
+    @include breakpoint(lg)  { max-height: 100vh; height: 100vh; }
   }
 
   li {
@@ -151,7 +152,7 @@
     transition: transform 250ms ease;
     will-change: transform;
     @include breakpoint(md)  { height: 40rem; }
-    @include breakpoint(mdl) { margin-top: -9.6rem; height: 28.8rem; flex-basis: 40%; }
+    @include breakpoint(mdl) { margin-top: -8rem; height: 28.8rem; flex-basis: 40%; }
     @include breakpoint(lg)  { margin-top: -5.6rem; }
   }
 
