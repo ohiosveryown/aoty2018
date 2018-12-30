@@ -1,6 +1,6 @@
 <!-- layout -->
 <template>
-  <main>
+  <div>
 
     <!-- <div class="cover-01"/>
     <div class="cover-02"/>
@@ -14,7 +14,7 @@
     <!-- <List/> -->
     <Matt/>
 
-  </main>
+  </div>
 </template>
 
 
