@@ -140,7 +140,7 @@
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     &::-webkit-scrollbar { display: none; } // safari & chrome
-    @include breakpoint(mdl) { max-height: 96vh; height: 100vh; }
+    @include breakpoint(mdl) { max-height: 90vh; height: 100vh; }
     @include breakpoint(lg)  { max-height: 100vh; height: 100vh; }
   }
 
