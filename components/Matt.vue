@@ -155,7 +155,8 @@
     will-change: transform;
 
     @include breakpoint(md)  { height: 40rem; }
-    @include breakpoint(mdl) { margin-top: -5.6rem; height: 28.8rem; flex-basis: 40%; }
+    @include breakpoint(mdl) { margin-top: -9.6rem; height: 28.8rem; flex-basis: 40%; }
+    @include breakpoint(lg)  { margin-top: -5.6rem; }
   }
 
   li h3 { margin-bottom: 1rem; }
@@ -187,15 +188,11 @@
 
   export default {
     mounted() {
+      // const, let, var
       const list = document.querySelector('ul')
       const listContent = document.querySelector('li')
       let currentPixel = list.scrollLeft
-
-      function mousePosition(e) {
-        if (e.y > 200) { scroll.style.opacity = '.8' }
-        else { scroll.style.opacity = '0' }
-      }
-
+      // skew logic
       const looper = () => {
         const newPixel = list.scrollLeft
         const diff = newPixel - currentPixel

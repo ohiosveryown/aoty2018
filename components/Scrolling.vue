@@ -74,7 +74,6 @@
       const scrollLeft = document.querySelector('.scroll-left')
       const scrollOr = document.querySelector('.or')
       const scrollRight = document.querySelector('.scroll-right')
-      let currentPixel = list.scrollLeft
 
       // mouse position - show subtext y >= 200
       document.addEventListener('mousemove', mousePosition)
