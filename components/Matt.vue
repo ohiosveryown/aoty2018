@@ -52,6 +52,7 @@
     transition: transform .25s ease;
     will-change: transform;
 
+    @include breakpoint(md)  { height: 40rem; }
     @include breakpoint(mdl) { height: 28.8rem; flex-basis: 40%; }
   }
 
