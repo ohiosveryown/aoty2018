@@ -9,8 +9,9 @@
           <figure class="">
             <img class="" src="@/assets/img/matt/10.jpg" alt="Saba">
             <figcaption class="f-mabry">Care for Me — Rap/Hip-Hop</figcaption>
+            <h5 class="f-space">Saba</h5>
           </figure>
-          <h5 class="f-space">Saba</h5>
+          <!-- <h5 class="f-space">Saba</h5> -->
         </nuxt-link>
       </li>
 
@@ -51,7 +52,7 @@
     transition: transform .25s ease;
     will-change: transform;
 
-    @include breakpoint(mdl) { height: 28.8rem; flex-basis: 34%; }
+    @include breakpoint(mdl) { height: 28.8rem; flex-basis: 40%; }
   }
 
   li:nth-of-type(1) { background: none; }
@@ -62,7 +63,6 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    @include breakpoint(md) { margin-bottom: 4rem; }
   }
 
 
