@@ -2,7 +2,7 @@
 <template>
   <ul class="debug">
 
-
+    <!-- 🎧 -->
       <li class="">
         <nuxt-link to='/test'>
           <h3 class="f-mabry tar">5</h3>
@@ -11,7 +11,6 @@
             <figcaption class="f-mabry">Care for Me — Rap/Hip-Hop</figcaption>
             <h5 class="f-space">Saba</h5>
           </figure>
-          <!-- <h5 class="f-space">Saba</h5> -->
         </nuxt-link>
       </li>
 
@@ -33,15 +32,14 @@
 
   ul {
     display: flex;
-    max-height: 100vh; height: 100vh;
+    align-items: center;
+    max-height: 80vh; height: 100vh;
     overflow-y: hidden;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     &::-webkit-scrollbar { display: none; } // safari & chrome
 
-    @include breakpoint(md) {
-      align-items: center;
-    }
+    @include breakpoint(mdl) { max-height: 100vh; height: 100vh; }
   }
 
   li {
