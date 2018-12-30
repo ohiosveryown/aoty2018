@@ -99,13 +99,14 @@
     // position: sticky;
     position: fixed;
     // z-index: 99999;
-    top: 4rem; left: 50%;
+    top: 2.4rem; left: 50%;
     transform: translateX(-50%);
     margin: 0 auto;
     max-width: 144rem;
     width: 88vw;
     display: flex;
     justify-content: space-between;
+    @include breakpoint(md) { top: 4rem; }
   }
 
   section {
