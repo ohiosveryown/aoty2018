@@ -1,6 +1,6 @@
 <!-- layout -->
 <template>
-  <ul class="debug">
+  <ul class="">
 
     <!-- 🎧 -->
       <li class="">
@@ -31,7 +31,7 @@
   @import '@/assets/mq.scss';
 
   ul {
-    --unit: 2rem;
+    --unit: 4rem;
     display: flex;
     align-items: center;
     max-height: 84vh; height: 100vh;
@@ -40,7 +40,9 @@
     -webkit-overflow-scrolling: touch;
     &::-webkit-scrollbar { display: none; } // safari & chrome
 
-    @include breakpoint(mdl) { max-height: 100vh; height: 100vh; }
+    @include breakpoint(mdl) {
+      max-height: 100vh; height: 100vh;
+    }
   }
 
   li {
@@ -52,7 +54,7 @@
     will-change: transform;
 
     @include breakpoint(md)  { height: 40rem; }
-    @include breakpoint(mdl) { height: 28.8rem; flex-basis: 40%; }
+    @include breakpoint(mdl) { margin-top: -5.6rem; height: 28.8rem; flex-basis: 40%; }
   }
 
   li:nth-of-type(1) { background: none; }
