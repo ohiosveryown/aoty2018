@@ -22,15 +22,16 @@
 
   footer {
     position: fixed;
-    bottom: 1.2rem;
+    bottom: 2rem;
     width: 100vw;
-
     @include breakpoint(md) { bottom: 6.4rem; }
   }
 
   .scroll {
+    display: none;
+    opacity: 0;
     transition: opacity 400ms ease;
-    opacity: 1;
+    @include breakpoint(md) { display: inherit; }
   }
 
   .scroll-left, .or { display: none; }
@@ -43,10 +44,7 @@
     border-radius: 200px;
     background: rgba(255,255,255,.24);
     overflow: hidden;
-
-    @include breakpoint(md) {
-      width: 40rem;
-    }
+    @include breakpoint(md) { width: 40rem; }
   }
 
   .progress-bar {
