@@ -6,13 +6,9 @@
     <div class="cover-02"/>
     <div class="cover-03"/> -->
 
-    <!-- <nav>
-      <nuxt-link class="linkOne" to="/test">Test</nuxt-link>
-    </nav> -->
-
     <AppNav/>
-    <!-- <List/> -->
     <Matt/>
+    <Scrolling/>
 
   </div>
 </template>
@@ -38,16 +34,18 @@
   import AppNav from '@/components/AppNav.vue';
   import List from '@/components/List.vue';
   import Matt from '@/components/Matt.vue'
+  import Scrolling from '@/components/Scrolling.vue'
 
   export default {
     transition: {
       name: 'homeFade',
       mode: 'out-in'
     },
-    components: { AppNav, List, Matt },
+    components: { AppNav, List, Matt, Scrolling },
     mounted() {
-      const navTrigger = document.querySelector('.nav-trigger')
 
+      // out transition
+      const navTrigger = document.querySelector('.nav-trigger')
       navTrigger.addEventListener('click', () => {
         navTrigger.classList.toggle('nav-trigger-active')
       })
@@ -62,6 +60,9 @@
       //   coverTwo.classList.add('cover-02-active')
       //   coverThree.classList.add('cover-03-active')
       // })
+
+      // Scrolling
+
     }
   }
 

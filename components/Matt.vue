@@ -3,7 +3,6 @@
 <main>
 
   <ul class="">
-
     <!-- 🎧 -->
     <li class="">
       <nuxt-link to='/test'>
@@ -123,8 +122,6 @@
         </figure>
       </nuxt-link>
     </li>
-
-
   </ul>
 
 </main>
