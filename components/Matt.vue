@@ -18,10 +18,9 @@
   @import '@/assets/mq.scss';
 
   ul {
-    // border: 4px solid pink;
+    display: flex;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
-    display: flex;
   }
 
   ul::-webkit-scrollbar {
