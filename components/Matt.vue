@@ -22,6 +22,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    -webkit-oveflow-scroll: touch;
     width: auto;
   }
 
