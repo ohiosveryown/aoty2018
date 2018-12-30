@@ -31,9 +31,10 @@
   @import '@/assets/mq.scss';
 
   ul {
+    --unit: 2rem;
     display: flex;
     align-items: center;
-    max-height: 80vh; height: 100vh;
+    max-height: 84vh; height: 100vh;
     overflow-y: hidden;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
