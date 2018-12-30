@@ -28,7 +28,8 @@
   @import '@/assets/mq.scss';
 
   nav {
-    position: sticky;
+    // position: sticky;
+    position: fixed;
     z-index: var(--zmax);
     top: 2rem;
     margin: 0 auto;
