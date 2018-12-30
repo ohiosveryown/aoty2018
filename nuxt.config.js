@@ -15,7 +15,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: '2018 Albums of the Year is a communal project built around music & friendship. A handful of friends rank their top albums of 2018. The project was designed and built by me, Matthew Pence @cmykw_ ', author: 'Matthew Pence – @cmykw_' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
