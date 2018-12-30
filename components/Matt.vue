@@ -1,15 +1,15 @@
 <!-- layout -->
 <template>
-  <section>
+  <ul>
 
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
 
-  </section>
+  </ul>
 </template>
 
 
@@ -17,18 +17,18 @@
 <style scoped lang="scss">
   @import '@/assets/mq.scss';
 
-  section {
+  ul {
     // border: 4px solid pink;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     display: flex;
   }
 
-  section::-webkit-scrollbar {
+  ul::-webkit-scrollbar {
     display: none;  // Safari and Chrome
   }
 
-  section > div {
+  ul > li {
     margin: 24px 24px;
     min-width: 33vw; height: 300px;
     background: lightblue;
