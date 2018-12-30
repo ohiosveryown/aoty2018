@@ -22,7 +22,7 @@
 
   footer {
     position: fixed;
-    bottom: 8rem;
+    bottom: 1.2rem;
     width: 100vw;
 
     @include breakpoint(md) { bottom: 6.4rem; }

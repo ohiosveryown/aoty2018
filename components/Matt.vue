@@ -133,7 +133,6 @@
   @import '@/assets/mq.scss';
 
   ul {
-    --unit: 4rem;
     display: flex;
     align-items: center;
     max-height: 84vh; height: 100vh;
@@ -149,6 +148,7 @@
 
   li {
     flex: 0 0 80%;
+    margin-top: -1.6rem;
     margin-right: 1.6rem;
     height: 64vh;
     transition: transform 250ms ease;
