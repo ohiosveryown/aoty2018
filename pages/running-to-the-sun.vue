@@ -19,30 +19,30 @@
           <figure class="detail-figure">
             <div class="eyebrow">
               <nuxt-link class="home-link f-space op-0" to="/">Go Back</nuxt-link>
-              <h3 class="f-mabry">10</h3>
+              <h3 class="f-mabry">6</h3>
             </div>
-            <img src="@/assets/img/matt/10.jpg" alt="Saba">
+            <img src="@/assets/img/matt/06.jpg" alt="St. Beauty">
           </figure>
 
           <article class="detail-details">
-            <h4 class="genre op-4 f-space">Rap/Hip-Hop</h4>
-            <h1 class="album f-mabry">Care for Me</h1>
-            <h3 class="artist f-space">Saba</h3>
+            <h4 class="genre op-4 f-space">R&amp;B</h4>
+            <h1 class="album f-mabry">Running to the Sun</h1>
+            <h3 class="artist f-space">St. Beauty</h3>
           </article>
         </header>
 
         <section class="mini-player">
-          <iframe src="https://open.spotify.com/embed/track/5cZpwmXGzDvBDX9Iv6wXzx" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/1GAHIJ5a6AFbIW5yjrGdAz" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </section>
 
         <article class="detail-copy">
-          <p>The grief-stricken Chicago rapper’s latest is a marvel of craft, musicality, and emotion. Through Saba’s inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>St Beauty’s musical mission statement is to ‘heal and inspire’ and these songs glow with a warmth that is inviting and intoxicating. Running to the Sun is the light we need right now, a perfect antidote to the winter blues.</p>
 
-          <p>CARE FOR ME processes grief and its attendant loneliness, the paradox of feeling secluded during the most connected era in history, and having to manage that misery inside the social gratification matrix—the machine of hearts, smileys, and dopamine hits. The album, in turn, bears out the exhaustion that comes with simply processing. Saba attempts to grapple with his ongoing depression as he wonders aloud if he’s really the only one. Through this inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>The band have taken their vintage aesthetic and swirled in electro sounds like we heard on recent albums by Solange and SZA – showing St Beauty understand current trends but aren’t chained to them. The girls have dubbed their musical style as ‘confetti’ – a mix of colours and emotions that are delicate and beautiful.</p>
 
           <div class="byline mt-2 tar">
             <h4>
-              <a href="https://pitchfork.com/reviews/albums/saba-care-for-me/" target="_blank">—Pitchfork</a>
+              <a href="https://highwayqueens.com/2018/01/24/e-p-review-st-beauty-running-to-the-sun/" target="_blank">—Highway Queens</a>
             </h4>
           </div>
         </article>

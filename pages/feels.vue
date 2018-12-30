@@ -19,30 +19,30 @@
           <figure class="detail-figure">
             <div class="eyebrow">
               <nuxt-link class="home-link f-space op-0" to="/">Go Back</nuxt-link>
-              <h3 class="f-mabry">10</h3>
+              <h3 class="f-mabry">2</h3>
             </div>
-            <img src="@/assets/img/matt/10.jpg" alt="Saba">
+            <img src="@/assets/img/matt/02.jpg" alt="Snoh Aalegra">
           </figure>
 
           <article class="detail-details">
-            <h4 class="genre op-4 f-space">Rap/Hip-Hop</h4>
-            <h1 class="album f-mabry">Care for Me</h1>
-            <h3 class="artist f-space">Saba</h3>
+            <h4 class="genre op-4 f-space">R&amp;B/Soul</h4>
+            <h1 class="album f-mabry">FEELS</h1>
+            <h3 class="artist f-space">Snoh Aalegra</h3>
           </article>
         </header>
 
         <section class="mini-player">
-          <iframe src="https://open.spotify.com/embed/track/5cZpwmXGzDvBDX9Iv6wXzx" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/6iBWuaPa61mWphAvACYlDr" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </section>
 
         <article class="detail-copy">
-          <p>The grief-stricken Chicago rapper’s latest is a marvel of craft, musicality, and emotion. Through Saba’s inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>Aalegra’s FEELS is a shining beacon of music because it is glamorously dark. Tracks like, “Walls”, “Fool For You”, and “Worse” feel like the setlist for a noir-bar in Casablanca. There women, draped in red, sing to the roses in their mind and hair, while men look on in with drinks and sorrows in their hand. The image intoxicates, and furthers the power of her voice by also  furthering the treachery of love. Aalgra’s vocals swaddle you like velvet, but her perceptions of love can cut you like a knife.</p>
 
-          <p>CARE FOR ME processes grief and its attendant loneliness, the paradox of feeling secluded during the most connected era in history, and having to manage that misery inside the social gratification matrix—the machine of hearts, smileys, and dopamine hits. The album, in turn, bears out the exhaustion that comes with simply processing. Saba attempts to grapple with his ongoing depression as he wonders aloud if he’s really the only one. Through this inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>In “You Keep Me Waiting (ft. Vic Mensa)”. “Nothing Burns Like The Cold (ft. Vince Staples”),  “Sometimes (feat. Logic)”, and “Out of Your Way”, she discusses the heartbreak of feeling tossable in a relationship you would die for. There is a distinction between a partner that loves differently than you and one that loves less than you. Aalegra’ sings to the latter, which is why her rasped, higher range soars with pain and prowess.</p>
 
           <div class="byline mt-2 tar">
             <h4>
-              <a href="https://pitchfork.com/reviews/albums/saba-care-for-me/" target="_blank">—Pitchfork</a>
+              <a href="https://diandrareviewsitall.com/snow-aalegra-feels-heartbreak/" target="_blank">—Diandra Reviews It All</a>
             </h4>
           </div>
         </article>

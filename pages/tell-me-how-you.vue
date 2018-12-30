@@ -19,30 +19,30 @@
           <figure class="detail-figure">
             <div class="eyebrow">
               <nuxt-link class="home-link f-space op-0" to="/">Go Back</nuxt-link>
-              <h3 class="f-mabry">10</h3>
+              <h3 class="f-mabry">8</h3>
             </div>
-            <img src="@/assets/img/matt/10.jpg" alt="Saba">
+            <img src="@/assets/img/matt/08.jpg" alt="Courtney Barnett">
           </figure>
 
           <article class="detail-details">
-            <h4 class="genre op-4 f-space">Rap/Hip-Hop</h4>
-            <h1 class="album f-mabry">Care for Me</h1>
-            <h3 class="artist f-space">Saba</h3>
+            <h4 class="genre op-4 f-space">Alternative</h4>
+            <h1 class="album f-mabry">Tell Me How You Really Feel</h1>
+            <h3 class="artist f-space">Courtney Barnett</h3>
           </article>
         </header>
 
         <section class="mini-player">
-          <iframe src="https://open.spotify.com/embed/track/5cZpwmXGzDvBDX9Iv6wXzx" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/0d29ZVNUaxWOtUFzElL3B9" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </section>
 
         <article class="detail-copy">
-          <p>The grief-stricken Chicago rapper’s latest is a marvel of craft, musicality, and emotion. Through Saba’s inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>Courtney Barnett’s second album is smaller, more introverted than her debut. It’s tentative but with a purpose, songs about what it means to not have—or need—the right words for everything.</p>
 
-          <p>CARE FOR ME processes grief and its attendant loneliness, the paradox of feeling secluded during the most connected era in history, and having to manage that misery inside the social gratification matrix—the machine of hearts, smileys, and dopamine hits. The album, in turn, bears out the exhaustion that comes with simply processing. Saba attempts to grapple with his ongoing depression as he wonders aloud if he’s really the only one. Through this inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>The most Courtney Barnett line on Courtney Barnett’s second album is a quote from an online troll. “He said, ‘I could eat a bowl of alphabet soup and spit out better words than you,’” she recalls, on “Nameless Faceless,” and then offers an uncharacteristically cocksure response in a shruggy sing-song: “But you didn’t.” The anonymous critic’s putdown assumes that Barnett’s witty early EPs and debut album cemented her style, making it ripe for parody. Abandoning social realism and polysyllabic razzle-dazzle, Tell Me How You Really Feel in fact overhauls almost everything we’ve come to expect from Barnett as a writer while vindicating everything she promised of herself on her 2015 debut LP: “Put me on a pedestal and I’ll only disappoint you.”</p>
 
           <div class="byline mt-2 tar">
             <h4>
-              <a href="https://pitchfork.com/reviews/albums/saba-care-for-me/" target="_blank">—Pitchfork</a>
+              <a href="https://pitchfork.com/reviews/albums/courtney-barnett-tell-me-how-you-really-feel/" target="_blank">—Pitchfork</a>
             </h4>
           </div>
         </article>

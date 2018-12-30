@@ -21,8 +21,8 @@
     </li>
 
     <!-- 🎧 -->
-    <li class="linkOne">
-      <nuxt-link to='/test'>
+    <li class="linkTwo">
+      <nuxt-link to='/kod'>
         <h3 class="f-mabry tar">9</h3>
         <figure class="">
           <img class="" src="@/assets/img/matt/09.jpg" alt="J.Cole">
@@ -33,8 +33,8 @@
     </li>
 
     <!-- 🎧 -->
-    <li class="">
-      <nuxt-link to='/test'>
+    <li class="linkThree">
+      <nuxt-link to='/tell-me-how-you'>
         <h3 class="f-mabry tar">8</h3>
         <figure class="">
           <img class="" src="@/assets/img/matt/08.jpg" alt="Coutney Barnett">
@@ -45,8 +45,8 @@
     </li>
 
     <!-- 🎧 -->
-    <li class="">
-      <nuxt-link to='/test'>
+    <li class="linkFour">
+      <nuxt-link to='/forever-and-ever'>
         <h3 class="f-mabry tar">7</h3>
         <figure class="">
           <img class="" src="@/assets/img/matt/07.jpg" alt="Sales">
@@ -57,8 +57,8 @@
     </li>
 
     <!-- 🎧 -->
-    <li class="">
-      <nuxt-link to='/test'>
+    <li class="linkFive">
+      <nuxt-link to='/running-to-the-sun'>
         <h3 class="f-mabry tar">6</h3>
         <figure class="">
           <img class="" src="@/assets/img/matt/06.jpg" alt="St. Beauty">
@@ -69,8 +69,8 @@
     </li>
 
     <!-- 🎧 -->
-    <li class="">
-      <nuxt-link to='/test'>
+    <li class="linkSix">
+      <nuxt-link to='/tranquility-base'>
         <h3 class="f-mabry tar">5</h3>
         <figure class="">
           <img class="" src="@/assets/img/matt/05.jpg" alt="Arctic Monkeys">
@@ -81,8 +81,8 @@
     </li>
 
     <!-- 🎧 -->
-    <li class="">
-      <nuxt-link to='/test'>
+    <li class="linkSeven">
+      <nuxt-link to='/con-todo-el-mundo'>
         <h3 class="f-mabry tar">4</h3>
         <figure class="">
           <img class="" src="@/assets/img/matt/04.jpg" alt="Khruangbin">
@@ -93,8 +93,8 @@
     </li>
 
     <!-- 🎧 -->
-    <li class="">
-      <nuxt-link to='/test'>
+    <li class="linkEight">
+      <nuxt-link to='/isolation'>
         <h3 class="f-mabry tar">3</h3>
         <figure class="">
           <img class="" src="@/assets/img/matt/03.jpg" alt="Kali Uchis">
@@ -105,8 +105,8 @@
     </li>
 
     <!-- 🎧 -->
-    <li class="">
-      <nuxt-link to='/test'>
+    <li class="linkNine">
+      <nuxt-link to='/feels'>
         <h3 class="f-mabry tar">2</h3>
         <figure class="">
           <img class="" src="@/assets/img/matt/02.jpg" alt="Snoh Aalegra">
@@ -117,8 +117,8 @@
     </li>
 
     <!-- 🎧 -->
-    <li class="">
-      <nuxt-link to='/test'>
+    <li class="linkTen">
+      <nuxt-link to='/whack-world'>
         <h3 class="f-mabry tar">1</h3>
         <figure class="">
           <img class="" src="@/assets/img/matt/01.jpg" alt="Tierra Whack">
@@ -230,9 +230,64 @@
       const coverOne = document.querySelector('.cover-01')
       const coverTwo = document.querySelector('.cover-02')
       const coverThree = document.querySelector('.cover-03')
-      const link = document.querySelector('.linkOne')
+      let linkOne = document.querySelector('.linkOne')
+      let linkTwo = document.querySelector('.linkTwo')
+      let linkThree = document.querySelector('.linkThree')
+      let linkFour = document.querySelector('.linkFour')
+      let linkFive = document.querySelector('.linkFive')
+      let linkSix = document.querySelector('.linkSix')
+      let linkSeven = document.querySelector('.linkSeven')
+      let linkEight = document.querySelector('.linkEight')
+      let linkNine = document.querySelector('.linkNine')
+      let linkTen = document.querySelector('.linkTen')
+
       // link cover logic
-      link.addEventListener('click', () => {
+      linkOne.addEventListener('click', () => {
+        coverOne.classList.add('cover-01-active')
+        coverTwo.classList.add('cover-02-active')
+        coverThree.classList.add('cover-03-active')
+      })
+      linkTwo.addEventListener('click', () => {
+        coverOne.classList.add('cover-01-active')
+        coverTwo.classList.add('cover-02-active')
+        coverThree.classList.add('cover-03-active')
+      })
+      linkThree.addEventListener('click', () => {
+        coverOne.classList.add('cover-01-active')
+        coverTwo.classList.add('cover-02-active')
+        coverThree.classList.add('cover-03-active')
+      })
+      linkFour.addEventListener('click', () => {
+        coverOne.classList.add('cover-01-active')
+        coverTwo.classList.add('cover-02-active')
+        coverThree.classList.add('cover-03-active')
+      })
+      linkFive.addEventListener('click', () => {
+        coverOne.classList.add('cover-01-active')
+        coverTwo.classList.add('cover-02-active')
+        coverThree.classList.add('cover-03-active')
+      })
+      linkSix.addEventListener('click', () => {
+        coverOne.classList.add('cover-01-active')
+        coverTwo.classList.add('cover-02-active')
+        coverThree.classList.add('cover-03-active')
+      })
+      linkSeven.addEventListener('click', () => {
+        coverOne.classList.add('cover-01-active')
+        coverTwo.classList.add('cover-02-active')
+        coverThree.classList.add('cover-03-active')
+      })
+      linkEight.addEventListener('click', () => {
+        coverOne.classList.add('cover-01-active')
+        coverTwo.classList.add('cover-02-active')
+        coverThree.classList.add('cover-03-active')
+      })
+      linkNine.addEventListener('click', () => {
+        coverOne.classList.add('cover-01-active')
+        coverTwo.classList.add('cover-02-active')
+        coverThree.classList.add('cover-03-active')
+      })
+      linkTen.addEventListener('click', () => {
         coverOne.classList.add('cover-01-active')
         coverTwo.classList.add('cover-02-active')
         coverThree.classList.add('cover-03-active')

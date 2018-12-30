@@ -19,30 +19,30 @@
           <figure class="detail-figure">
             <div class="eyebrow">
               <nuxt-link class="home-link f-space op-0" to="/">Go Back</nuxt-link>
-              <h3 class="f-mabry">10</h3>
+              <h3 class="f-mabry">1</h3>
             </div>
-            <img src="@/assets/img/matt/10.jpg" alt="Saba">
+            <img src="@/assets/img/matt/01.jpg" alt="Tierra Whack">
           </figure>
 
           <article class="detail-details">
             <h4 class="genre op-4 f-space">Rap/Hip-Hop</h4>
-            <h1 class="album f-mabry">Care for Me</h1>
-            <h3 class="artist f-space">Saba</h3>
+            <h1 class="album f-mabry">Whack World</h1>
+            <h3 class="artist f-space">Tierra Whack</h3>
           </article>
         </header>
 
         <section class="mini-player">
-          <iframe src="https://open.spotify.com/embed/track/5cZpwmXGzDvBDX9Iv6wXzx" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/0IUWe1lprVhev4JwubwNMF" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </section>
 
         <article class="detail-copy">
-          <p>The grief-stricken Chicago rapper’s latest is a marvel of craft, musicality, and emotion. Through Saba’s inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>The surreal, audiovisual album from the Philadelphia artist is only 15 minutes long, but it is overflowing with hooks and a powerful sense of imagination.</p>
 
-          <p>CARE FOR ME processes grief and its attendant loneliness, the paradox of feeling secluded during the most connected era in history, and having to manage that misery inside the social gratification matrix—the machine of hearts, smileys, and dopamine hits. The album, in turn, bears out the exhaustion that comes with simply processing. Saba attempts to grapple with his ongoing depression as he wonders aloud if he’s really the only one. Through this inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>Tierra Whack raps “best believe I’m gon’ sell if I just be myself” less than 30 seconds into her debut audiovisual album, Whack World. But it is nearly impossible to prepare for exactly what she looks and sounds like. Hers is a playful world of surreal scenes and mercurial soundscapes—slow jams while grooming a toy poodle, doo-wop while cleaning up a house party, trap music while lying in a bedazzled coffin. It’s Deep South country and cosmic raps, self-love and middle fingers to naysayers. And you have just 15 minutes to digest it all.</p>
 
           <div class="byline mt-2 tar">
             <h4>
-              <a href="https://pitchfork.com/reviews/albums/saba-care-for-me/" target="_blank">—Pitchfork</a>
+              <a href="https://diandrareviewsitall.com/snow-aalegra-feels-heartbreak/" target="_blank">—Pitchfork</a>
             </h4>
           </div>
         </article>

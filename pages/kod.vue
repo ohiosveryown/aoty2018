@@ -19,30 +19,30 @@
           <figure class="detail-figure">
             <div class="eyebrow">
               <nuxt-link class="home-link f-space op-0" to="/">Go Back</nuxt-link>
-              <h3 class="f-mabry">10</h3>
+              <h3 class="f-mabry">9</h3>
             </div>
-            <img src="@/assets/img/matt/10.jpg" alt="Saba">
+            <img src="@/assets/img/matt/09.jpg" alt="J.Cole">
           </figure>
 
           <article class="detail-details">
             <h4 class="genre op-4 f-space">Rap/Hip-Hop</h4>
-            <h1 class="album f-mabry">Care for Me</h1>
-            <h3 class="artist f-space">Saba</h3>
+            <h1 class="album f-mabry">KOD</h1>
+            <h3 class="artist f-space">J.Cole</h3>
           </article>
         </header>
 
         <section class="mini-player">
-          <iframe src="https://open.spotify.com/embed/track/5cZpwmXGzDvBDX9Iv6wXzx" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/3rFF7kSm5qBOOPs6ljFgPp" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </section>
 
         <article class="detail-copy">
-          <p>The grief-stricken Chicago rapper’s latest is a marvel of craft, musicality, and emotion. Through Saba’s inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>K.O.D. magnifies Cole’s current status as a deliberate outsider, well versed in pop music’s machinations even as he refuses to take part in them. His righteous, substance-over-style image is enormously appealing – when K.O.D. dropped on April 20th, it broke Apple Music’s 24-hour streaming record. But he remains a divisive figure, with some critics loudly deriding him for his production choices and, uh, his lyrical reliance on bodily functions.</p>
 
-          <p>CARE FOR ME processes grief and its attendant loneliness, the paradox of feeling secluded during the most connected era in history, and having to manage that misery inside the social gratification matrix—the machine of hearts, smileys, and dopamine hits. The album, in turn, bears out the exhaustion that comes with simply processing. Saba attempts to grapple with his ongoing depression as he wonders aloud if he’s really the only one. Through this inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>If there’s any optimism in K.O.D., it’s fleeting but substantive. “Meditate, don’t medicate,” he riffs in a P-Funk tone over the funky drummer rhythm and muted organ fills of “Friends.” Yet every moment of joy is fraught with complications. While technically a hopeful coda, “Window Pain (Outro)” is riven with sweet-and-sour sentiments: “All I want to do is see my Granny on the other side/All I want to do is kill the man that made my mama cry.” As a sometimes-bitter look at how the world can consume you, K.O.D. doesn’t offer much solace. But it’s gripping stuff: J. Cole has always been more than the sum of his parts.</p>
 
           <div class="byline mt-2 tar">
             <h4>
-              <a href="https://pitchfork.com/reviews/albums/saba-care-for-me/" target="_blank">—Pitchfork</a>
+              <a href="https://www.rollingstone.com/music/music-album-reviews/review-j-coles-k-o-d-is-a-tough-rewarding-meditation-on-addiction-630615/" target="_blank">—Rolling Stone</a>
             </h4>
           </div>
         </article>

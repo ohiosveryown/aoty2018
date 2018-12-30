@@ -19,30 +19,30 @@
           <figure class="detail-figure">
             <div class="eyebrow">
               <nuxt-link class="home-link f-space op-0" to="/">Go Back</nuxt-link>
-              <h3 class="f-mabry">10</h3>
+              <h3 class="f-mabry">7</h3>
             </div>
-            <img src="@/assets/img/matt/10.jpg" alt="Saba">
+            <img src="@/assets/img/matt/07.jpg" alt="Sales">
           </figure>
 
           <article class="detail-details">
-            <h4 class="genre op-4 f-space">Rap/Hip-Hop</h4>
-            <h1 class="album f-mabry">Care for Me</h1>
-            <h3 class="artist f-space">Saba</h3>
+            <h4 class="genre op-4 f-space">Alternative</h4>
+            <h1 class="album f-mabry">Forever and Ever</h1>
+            <h3 class="artist f-space">Sales</h3>
           </article>
         </header>
 
         <section class="mini-player">
-          <iframe src="https://open.spotify.com/embed/track/5cZpwmXGzDvBDX9Iv6wXzx" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/40zaUOTsugX2NEBuJ6905s" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </section>
 
         <article class="detail-copy">
-          <p>The grief-stricken Chicago rapper’s latest is a marvel of craft, musicality, and emotion. Through Saba’s inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>Written, recorded, and mixed between their two bedroom studios, forever &amp; ever spends as much time exploring dream pop airiness and electronic minimalism as it does romanticizing its guitar parts. A song like “You Look Well” centers around a simple guitar melody and Shih’s thudding electric drums, creating a heavy fog over the course of the song as the melody lodges itself in your brain. Much of that haze comes from Morgan, who sings in a nonchalant manner that favors the plump yet hushed enunciation of Beach House’s Victoria Legrand. On standout single “Off and On,” her voice skates across the bare and looping guitar lines, transforming what could be misread as an homage to the xx into a more personal song.</p>
 
-          <p>CARE FOR ME processes grief and its attendant loneliness, the paradox of feeling secluded during the most connected era in history, and having to manage that misery inside the social gratification matrix—the machine of hearts, smileys, and dopamine hits. The album, in turn, bears out the exhaustion that comes with simply processing. Saba attempts to grapple with his ongoing depression as he wonders aloud if he’s really the only one. Through this inner turmoil, he finds his most powerful and diaristic storytelling.</p>
+          <p>The album pulls focus toward the blasé emotion in Morgan’s voice. She overcomes day-to-day problems, sanding them down until they lose their edge, but her words are too breathy to completely decipher. So as the album opens with one of those reflections (“You work in the mornings/A boring 9-to-5/And you’re spent”), SALES make it clear that this time around they’re zoned in on a larger feeling, not a smaller moment. By setting abstract emotions against a perpetually chill backdrop , SALES create a world of lo-fi pop on forever &amp; ever that’s perfectly pristine yet easy to get lost in all the same.</p>
 
           <div class="byline mt-2 tar">
             <h4>
-              <a href="https://pitchfork.com/reviews/albums/saba-care-for-me/" target="_blank">—Pitchfork</a>
+              <a href="https://pitchfork.com/reviews/albums/sales-forever-and-ever/" target="_blank">—Pitchfork</a>
             </h4>
           </div>
         </article>
