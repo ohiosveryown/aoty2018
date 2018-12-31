@@ -95,6 +95,8 @@
   .detail-cover-out-active { transform: translateY(0); }
 
   .detail-main {
+    position: relative;
+    z-index: var(--z3);
     margin: 7.2rem auto 8rem auto;
     @include breakpoint(md) {
       margin: 17.6rem auto 9.6rem auto;
