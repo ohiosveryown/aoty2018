@@ -158,7 +158,7 @@
     will-change: transform;
     @include breakpoint(md)  { height: 40rem; }
     @include breakpoint(mdl) { margin-top: -8rem; height: 28.8rem; flex-basis: 40%; }
-    @include breakpoint(lg)  { margin-top: -5.6rem; }
+    @include breakpoint(lg)  { margin-top: -11.2rem; }
   }
 
   li h3 { margin-bottom: 1rem; }

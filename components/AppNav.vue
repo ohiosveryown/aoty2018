@@ -96,10 +96,8 @@
   }
 
   .nav-main {
-    // position: sticky;
     position: fixed;
     z-index: var(--z4);
-    // z-index: 99999;
     top: 2.4rem; left: 50%;
     transform: translateX(-50%);
     margin: 0 auto;
