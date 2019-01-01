@@ -45,30 +45,43 @@
 
   main {
     display: flex;
+    flex-direction: column;
     position: relative;
+    margin-top: 12rem;
 
     @include breakpoint(mdl) {
+      margin-top: 0;
       height: 100vh;
       flex-direction: row;
       align-items: center;
     }
   }
 
+  header {
+    @include breakpoint(md) { width: grid-width(8); }
+    @include breakpoint(mdl) { width: grid-width(12); }
+  }
+
   .copy {
+    margin-bottom: 4rem;
+    @include breakpoint(md) { margin-bottom: 6.4rem; }
     @include breakpoint(mdl) {
       position: absolute;
       top: 10%;
+      margin-bottom: 0;
       width: grid-width(8);
     }
   }
 
-  article {
-    @include breakpoint(mdl) {
-      width: grid-width(8);
-    }
-  }
+  article { @include breakpoint(md)  { width: grid-width(8); }}
 
   .lists {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+
+    @include breakpoint(md) { align-self: flex-end; }
+
     @include breakpoint(mdl) {
       position: absolute;
       bottom: 16%; right: 0;
@@ -79,6 +92,8 @@
   ul {
     display: flex;
     flex-direction: column;
+    margin-bottom: 4rem;
+    @include breakpoint(md) { margin-bottom: 0; }
   }
 
   p { text-align: justify; }
