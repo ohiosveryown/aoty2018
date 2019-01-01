@@ -19,6 +19,7 @@
           <figure class="detail-figure">
             <div class="eyebrow">
               <nuxt-link class="home-link f-space op-0" to="/">Go Back</nuxt-link>
+              <!-- <a class="home-link f-space" @click="$router.go(-1)">Go Back</a> -->
               <h3 class="f-mabry">3</h3>
             </div>
             <img src="@/assets/img/matt/03.jpg" alt="Kali Uchis">
