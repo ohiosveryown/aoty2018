@@ -23,11 +23,11 @@
           <a class="f-space op-5" href="https://twitter.com/cmykw_" target="_blank">@cmykw_</a>
         </li>
         <li class="mb-4">
-          <nuxt-link to='/Matt'><h3 class="mb-0 f-mabry">Stepfan's Top 5 Albums of the Year</h3></nuxt-link>
+          <nuxt-link to='/'><h3 class="mb-0 f-mabry">Stepfan's Top 5 Albums of the Year</h3></nuxt-link>
           <a class="f-space op-5" href="https://twitter.com/stepfdelaghetto" target="_blank">@stepfdelaghetto</a>
         </li>
         <li class="mb-4">
-          <nuxt-link to='/Matt'><h3 class="mb-0 f-mabry">Kristie's Top 10 Albums of the Year</h3></nuxt-link>
+          <nuxt-link to='/Kristie'><h3 class="mb-0 f-mabry">Kristie's Top 5 Albums of the Year</h3></nuxt-link>
           <a class="f-space op-5" href="https://twitter.com/kristie_feltner" target="_blank">@kristie_feltner</a>
         </li>
       </ul>
