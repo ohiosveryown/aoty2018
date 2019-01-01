@@ -3,7 +3,7 @@
   <div class="">
 
     <!-- 🛣 -->
-    <AppNav/>
+    <navigation/>
 
     <!-- 🛌 -->
     <div class="detail-cover-out"/>
@@ -173,13 +173,13 @@
 
 <!-- logic -->
 <script>
-  import AppNav from '@/components/AppNav.vue';
+  import navigation from '@/components/navigation.vue';
   export default {
     transition: {
       name: 'detailFade',
       mode: 'out-in'
     },
-    components: { AppNav },
+    components: { navigation },
     mounted() {
       const homeLink = document.querySelector('.home-link')
       const coverOut = document.querySelector('.detail-cover-out')

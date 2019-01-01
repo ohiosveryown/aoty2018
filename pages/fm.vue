@@ -21,28 +21,28 @@
               <nuxt-link class="home-link f-space op-0" to="/">Go Back</nuxt-link>
               <h3 class="f-mabry">7</h3>
             </div>
-            <img src="@/assets/img/matt/07.jpg" alt="Sales">
+            <img src="@/assets/img/matt/07.jpg" alt="Vince Staples">
           </figure>
 
           <article class="detail-details">
-            <h4 class="genre op-4 f-space">Alternative</h4>
-            <h1 class="album f-mabry">Forever and Ever</h1>
-            <h3 class="artist f-space">Sales</h3>
+            <h4 class="genre op-4 f-space">Rap/Hip-Hop</h4>
+            <h1 class="album f-mabry">FM!</h1>
+            <h3 class="artist f-space">Vince Staples</h3>
           </article>
         </header>
 
         <section class="mini-player">
-          <iframe src="https://open.spotify.com/embed/track/40zaUOTsugX2NEBuJ6905s" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/6b6liLOZhXdOfFBFVN5KNK" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </section>
 
         <article class="detail-copy">
-          <p>Written, recorded, and mixed between their two bedroom studios, forever &amp; ever spends as much time exploring dream pop airiness and electronic minimalism as it does romanticizing its guitar parts. A song like “You Look Well” centers around a simple guitar melody and Shih’s thudding electric drums, creating a heavy fog over the course of the song as the melody lodges itself in your brain. Much of that haze comes from Morgan, who sings in a nonchalant manner that favors the plump yet hushed enunciation of Beach House’s Victoria Legrand. On standout single “Off and On,” her voice skates across the bare and looping guitar lines, transforming what could be misread as an homage to the xx into a more personal song.</p>
+          <p>Toward the end of FM!, his quick and jarring new album, there’s a moment where Vince Staples brutally sums up the cold absurdity of rap almost-fame: “Tryna get rich, get everybody fed / But everybody dead.” Staples has earned a reputation as a sharp and cerebral trickster — funnier than a lot of comedians, more entertaining when talking about basketball than most professional basketball commentators. He’s great at half-trolling publicity stunts, like the moment, earlier this year, when he promised to quit rap and keep his opinions to himself if anti-fans raised enough money on his Gofundme campaign. And yet Staples is not a joke. And on his records, he generally puts that persona behind him and gives, a cold, dark look at what it’s like where he’s from. To understand him, you have to understand that dichotomy.</p>
 
-          <p>The album pulls focus toward the blasé emotion in Morgan’s voice. She overcomes day-to-day problems, sanding them down until they lose their edge, but her words are too breathy to completely decipher. So as the album opens with one of those reflections (“You work in the mornings/A boring 9-to-5/And you’re spent”), SALES make it clear that this time around they’re zoned in on a larger feeling, not a smaller moment. By setting abstract emotions against a perpetually chill backdrop , SALES create a world of lo-fi pop on forever &amp; ever that’s perfectly pristine yet easy to get lost in all the same.</p>
+          <p>Musically, FM! is brisk and efficient. The beats have less to do with the ’90s G-funk that some of us still associate with that Coast and more to do with the new-century revolutions of hyphy and jerk music — all those clipped drums and nagging synth figures working together to convey a barely-contained energy. It’s only 22 minutes long, and it feels even shorter than that, what with the skits and radio-station invasions.</p>
 
           <div class="byline mt-2 tar">
             <h4>
-              <a href="https://pitchfork.com/reviews/albums/sales-forever-and-ever/" target="_blank">—Pitchfork</a>
+              <a href="https://www.stereogum.com/2021753/vince-staples-fm-review/franchises/album-of-the-week/" target="_blank">—Stereogum</a>
             </h4>
           </div>
         </article>

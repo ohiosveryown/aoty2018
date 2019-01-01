@@ -1,19 +1,21 @@
 <!-- layout -->
 <template>
-  <main class=" mw">
+  <main class="mw">
 
-    <section class=" copy">
+    <aboutNavigation/>
+
+    <section class="copy">
       <header>
         <h5 class="mb-1 f-space infrared">About</h5>
         <h1 class="mb-4 f-mabry">2018 Albums of the Year is a communal project built around music &amp; friendship.</h1>
       </header>
       <article class="">
         <p>2018 was a great year for music. To catalog this period of sonic mastery, myself and a group of friends want to share our favorites with you. This site was designed and built by me, Matt – and you can view the <a href="https://github.com/ohiosveryown/aoty2018" target="_blank">source here</a>.</p>
-        <p>The site was built on next.js and the type is set in Mabry by Colophon Foundry and Space Grotesk by Florian Karsten.</p>
+        <p>The site is built on nuxt.js and the type is set in Mabry by Colophon Foundry, and Space Grotesk by Florian Karsten.</p>
       </article>
     </section>
 
-    <section class=" lists">
+    <section class="lists">
       <h5 class="mb-1 f-space infrared">Album Lists</h5>
       <ul>
         <li class="mb-4">
@@ -50,7 +52,7 @@
     margin-top: 12rem;
 
     @include breakpoint(mdl) {
-      margin-top: 0;
+      margin-top: 2.4rem;
       height: 100vh;
       flex-direction: row;
       align-items: center;
@@ -99,16 +101,21 @@
   p { text-align: justify; }
   p + p { text-indent: 2ch; }
 
+  .aboutFade-enter-active, .aboutFade-leave-active { transition: all 200ms ease; }
+  .aboutFade-enter, .aboutFade-active { opacity: 0; }
+
 </style>
 
 
 <!-- logic -->
 <script>
+  import aboutNavigation from '@/components/aboutNavigation'
   export default {
     transition: {
-      name: 'detailFade',
+      name: 'aboutFade',
       mode: 'out-in'
     },
+    components: { aboutNavigation },
     mounted() {
 
     }

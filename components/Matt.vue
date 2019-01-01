@@ -14,7 +14,7 @@
         <h3 class="f-mabry tar">10</h3>
         <figure class="">
           <img class="" src="@/assets/img/matt/10.jpg" alt="Saba">
-          <figcaption class="f-mabry">Care for Me — Rap/Hip-Hop</figcaption>
+          <figcaption class="f-mabry">CARE FOR ME — Rap/Hip-Hop</figcaption>
           <h5 class="f-space">Saba</h5>
         </figure>
       </nuxt-link>
@@ -46,12 +46,12 @@
 
     <!-- 🎧 -->
     <li class="linkFour">
-      <nuxt-link to='/forever-and-ever'>
+      <nuxt-link to='/fm'>
         <h3 class="f-mabry tar">7</h3>
         <figure class="">
-          <img class="" src="@/assets/img/matt/07.jpg" alt="Sales">
-          <figcaption class="f-mabry">Forever and Ever — Alternative</figcaption>
-          <h5 class="f-space">Sales</h5>
+          <img class="" src="@/assets/img/matt/07.jpg" alt="Vince Staples">
+          <figcaption class="f-mabry">FM! — Rap/Hip-Hop</figcaption>
+          <h5 class="f-space">Vince Staples</h5>
         </figure>
       </nuxt-link>
     </li>
