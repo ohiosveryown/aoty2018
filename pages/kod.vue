@@ -10,6 +10,7 @@
     <div class="detail-cover-01"/>
     <div class="detail-cover-02"/>
     <div class="detail-cover-03"/>
+    <div class="about-cover"/>
 
     <!-- 🤙🏼 -->
     <main class="">
@@ -57,7 +58,7 @@
 <style lang="scss">
   @import '@/assets/mq.scss';
 
-  .detail-cover-01, .detail-cover-02, .detail-cover-03 {
+  .detail-cover-01, .detail-cover-02, .detail-cover-03, .about-cover {
     position: fixed;
     top: 0; left: 0;
     z-index: var(--zmax);
@@ -71,11 +72,20 @@
   .detail-cover-02 { top: 33vh; }
   .detail-cover-03 { top: 66vh; height: 34vh; }
 
+  .about-cover {
+    // z-index: var(--z4);
+    height: 100vh;
+    background: #0b0b0b;
+    transform: scaleX(1) translateY(-100vh);
+    transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1);
+  }
+
   @keyframes coverOneIn {
     from { transform: scaleX(1); }
     to   { transform: scaleX(0); }
   }
 
+  .about-cover-active { transform: translateY(0);}
   .detail-cover-01 { animation: coverOneIn 1000ms cubic-bezier(0.770, 0, 0.175, 1); animation-fill-mode: forwards; }
   .detail-cover-02 { animation: coverOneIn 1000ms cubic-bezier(0.770, 0, 0.175, 1); animation-fill-mode: forwards; animation-delay: 150ms; }
   .detail-cover-03 { animation: coverOneIn 1000ms cubic-bezier(0.770, 0, 0.175, 1); animation-fill-mode: forwards; animation-delay: 300ms; }
@@ -95,8 +105,6 @@
   .detail-cover-out-active { transform: translateY(0); }
 
   .detail-main {
-    position: relative;
-    z-index: var(--z3);
     margin: 7.2rem auto 8rem auto;
     @include breakpoint(md) {
       margin: 17.6rem auto 9.6rem auto;
@@ -183,6 +191,14 @@
     },
     components: { navigation },
     mounted() {
+      // about logic
+      const navTrigger = document.querySelector('.nav-trigger')
+      const aboutCover = document.querySelector('.about-cover')
+
+      navTrigger.addEventListener('click', () => {
+        aboutCover.classList.add('about-cover-active')
+      })
+
       const homeLink = document.querySelector('.home-link')
       const coverOut = document.querySelector('.detail-cover-out')
 

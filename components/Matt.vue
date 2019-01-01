@@ -6,6 +6,7 @@
   <div class="cover-01"/>
   <div class="cover-02"/>
   <div class="cover-03"/>
+  <div class="about-cover"/>
 
   <ul class="">
     <!-- 🎧 -->
@@ -183,7 +184,7 @@
   }
 
   // cover
-  .cover-01, .cover-02, .cover-03 {
+  .cover-01, .cover-02, .cover-03, .about-cover {
     position: fixed;
     top: 0; left: 0;
     z-index: var(--zmax);
@@ -198,6 +199,14 @@
   .cover-02 { top: 33vh; }
   .cover-03 { top: 66vh; }
 
+  .about-cover {
+    // z-index: var(--z4);
+    height: 100vh;
+    background: #0b0b0b;
+    transform: scaleX(1) translateY(-100vh);
+  }
+
+  .about-cover-active { transform: translateY(0);}
   .cover-01-active, .cover-02-active, .cover-03-active { transform: scaleX(1); }
   .cover-02-active { transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1) 150ms; }
   .cover-03-active { transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1) 300ms; }
@@ -209,6 +218,9 @@
 <script>
 
   export default {
+    // transition: {
+    //   name: 'main'
+    // },
     mounted() {
       // const, let, var
       const list = document.querySelector('ul')
@@ -226,6 +238,14 @@
       }
       looper()
 
+      // about logic
+      const navTrigger = document.querySelector('.nav-trigger')
+      const aboutCover = document.querySelector('.about-cover')
+
+      navTrigger.addEventListener('click', () => {
+        aboutCover.classList.add('about-cover-active')
+      })
+
       // const, let, var
       const coverOne = document.querySelector('.cover-01')
       const coverTwo = document.querySelector('.cover-02')
@@ -240,8 +260,7 @@
       let linkEight = document.querySelector('.linkEight')
       let linkNine = document.querySelector('.linkNine')
       let linkTen = document.querySelector('.linkTen')
-
-      // link cover logic
+      // // link cover logic
       linkOne.addEventListener('click', () => {
         coverOne.classList.add('cover-01-active')
         coverTwo.classList.add('cover-02-active')

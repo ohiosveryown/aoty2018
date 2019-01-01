@@ -33,10 +33,12 @@
     justify-content: space-between;
     position: fixed;
     z-index: var(--zmax);
-    top: 3.2rem; left: 50%;
+    top: 2rem; left: 50%;
     max-width: var(--max_width);
     width: 88vw;
     transform: translateX(-50%);
+
+    @include breakpoint(md) { top: 3.2rem; }
   }
 
   .nav-trigger {
