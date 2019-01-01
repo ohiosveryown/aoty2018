@@ -8,7 +8,7 @@
         <h1 class="mb-4 f-mabry">2018 Albums of the Year is a communal project built around music &amp; friendship.</h1>
       </header>
       <article class="">
-        <p>2018 was a great year for music. To catalog this period of sonic mastery, myself and a group of friends want to share our favorites with you. This site was designed and built by me, Matt – and you can view the source here.</p>
+        <p>2018 was a great year for music. To catalog this period of sonic mastery, myself and a group of friends want to share our favorites with you. This site was designed and built by me, Matt – and you can view the <a href="https://github.com/ohiosveryown/aoty2018" target="_blank">source here</a>.</p>
         <p>The site was built on next.js and the type is set in Mabry by Colophon Foundry and Space Grotesk by Florian Karsten.</p>
       </article>
     </section>
@@ -17,15 +17,15 @@
       <h5 class="mb-1 f-space infrared">Album Lists</h5>
       <ul>
         <li class="mb-4">
-          <nuxt-link to='/Matt'><h3 class="f-mabry">Matt’s Top 10 Albums of the Year</h3></nuxt-link>
+          <nuxt-link to='/'><h3 class="mb-0 f-mabry">Matt’s Top 10 Albums of the Year</h3></nuxt-link>
           <a class="f-space op-5" href="https://twitter.com/cmykw_" target="_blank">@cmykw_</a>
         </li>
         <li class="mb-4">
-          <nuxt-link to='/Matt'><h3 class="f-mabry">Stepfan's Top 5 Albums of the Year</h3></nuxt-link>
+          <nuxt-link to='/Matt'><h3 class="mb-0 f-mabry">Stepfan's Top 5 Albums of the Year</h3></nuxt-link>
           <a class="f-space op-5" href="https://twitter.com/stepfdelaghetto" target="_blank">@stepfdelaghetto</a>
         </li>
         <li class="mb-4">
-          <nuxt-link to='/Matt'><h3 class="f-mabry">Kristie's Top 10 Albums of the Year</h3></nuxt-link>
+          <nuxt-link to='/Matt'><h3 class="mb-0 f-mabry">Kristie's Top 10 Albums of the Year</h3></nuxt-link>
           <a class="f-space op-5" href="https://twitter.com/kristie_feltner" target="_blank">@kristie_feltner</a>
         </li>
       </ul>
@@ -36,10 +36,12 @@
 
 
 <!-- style -->
-<style lang="scss">
+<style scoped lang="scss">
   @import '@/assets/mq.scss';
 
   .infrared { color: var(--infrared); }
+  a { text-decoration: underline; }
+  a:hover { text-decoration: none; }
 
   main {
     display: flex;
