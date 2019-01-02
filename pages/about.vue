@@ -27,13 +27,13 @@
           <nuxt-link to='/stepfan'><h3 class="mb-0 f-mabry">Stefan's Top 5 Albums of the Year</h3></nuxt-link>
           <a class="f-space op-5" href="https://twitter.com/stepfdelaghetto" target="_blank">@stepfandelaghetto</a>
         </li>
-        <!-- <li class="mb-4">
-          <nuxt-link to='/'><h3 class="mb-0 f-mabry">Stepfan's Top 5 Albums of the Year</h3></nuxt-link>
-          <a class="f-space op-5" href="https://twitter.com/stepfdelaghetto" target="_blank">@stepfdelaghetto</a>
-        </li> -->
         <li class="mb-4">
           <nuxt-link to='/Kristie'><h3 class="mb-0 f-mabry">Kristie's Top 5 Albums of the Year</h3></nuxt-link>
           <a class="f-space op-5" href="https://twitter.com/kristie_feltner" target="_blank">@kristie_feltner</a>
+        </li>
+        <li class="mb-4">
+          <nuxt-link to='/roy'><h3 class="mb-0 f-mabry">Roy's Top 5 Albums of the Year</h3></nuxt-link>
+          <a class="f-space op-5" href="https://twitter.com/Old_Orleans" target="_blank">@old_orleans</a>
         </li>
         <li class="mb-4">
           <h3 class="f-mabry">More Lists Coming Soon</h3>
@@ -109,7 +109,7 @@
 
     @include breakpoint(mdl) {
       position: absolute;
-      bottom: 8%; right: -2rem;
+      top: 56%; right: -2rem;
       width: grid-width(4);
     }
   }
