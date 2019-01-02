@@ -63,7 +63,7 @@
     top: 0; left: 0;
     z-index: var(--zmax);
     width: 100vw; height: 35vh;
-    background: #28262a;
+    background: #0b0b0b;
     transform: scaleX(1);
     transform-origin: right;
     will-change: transform;
@@ -185,10 +185,10 @@
 <script>
   import navigation from '@/components/navigation.vue';
   export default {
-    transition: {
-      name: 'detailFade',
-      mode: 'out-in'
-    },
+    // transition: {
+    //   name: 'detailFade',
+    //   mode: 'out-in'
+    // },
     components: { navigation },
     mounted() {
       // about logic
