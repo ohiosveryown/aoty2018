@@ -12,7 +12,7 @@
       </header>
       <article class="">
         <p>2018 was a great year for music. To catalog this period of sonic mastery, myself and a group of friends want to share our favorites with you. This site was designed and built by me, Matt – and you can view the <a href="https://github.com/ohiosveryown/aoty2018" target="_blank">source here</a>.</p>
-        <p>The site is built on nuxt.js and the type is set in Mabry by Colophon Foundry, and Space Grotesk by Florian Karsten.</p>
+        <p>The site is built on nuxt.js and friendship. The type is set in Mabry by Colophon Foundry, and Space Grotesk by Florian Karsten.</p>
       </article>
     </section>
 
