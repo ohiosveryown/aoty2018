@@ -9,6 +9,12 @@
   <div class="cover-03"/>
   <div class="about-cover"/>
 
+  <!-- 🛌 -->
+  <div class="detail-cover-out"/>
+  <div class="detail-cover-01"/>
+  <div class="detail-cover-02"/>
+  <div class="detail-cover-03"/>
+
   <!-- friends -->
   <h5 class="op-5 subtitle f-space">Stepfan's List</h5>
 
@@ -178,9 +184,35 @@
   .cover-02-active { transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1) 150ms; }
   .cover-03-active { transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1) 300ms; }
 
-  .homeFade-enter-active { transition: all 1600ms ease; }
-  .homeFade-leave-active { transition: all 100ms ease; }
-  .homeFade-enter, .homeFade-active { opacity: 0; }
+  // .homeFade-enter-active { transition: all 1600ms ease; }
+  // .homeFade-leave-active { transition: all 100ms ease; }
+  // .homeFade-enter, .homeFade-active { opacity: 0; }
+
+  .aFade-leave-active { transition: all 3000ms ease; opacity: 0; }
+
+  .detail-cover-01, .detail-cover-02, .detail-cover-03 {
+    position: fixed;
+    top: 0; left: 0;
+    z-index: var(--zmax);
+    width: 100vw; height: 35vh;
+    background: #28262a;
+    transform: scaleX(1);
+    transform-origin: right;
+    will-change: transform;
+  }
+
+  .detail-cover-02 { top: 33vh; }
+  .detail-cover-03 { top: 66vh; height: 34vh; }
+
+  @keyframes coverOneIn {
+    from { transform: scaleX(1); }
+    to   { transform: scaleX(0); }
+  }
+
+  .about-cover-active { transform: translateY(0);}
+  .detail-cover-01 { animation: coverOneIn 1000ms cubic-bezier(0.770, 0, 0.175, 1); animation-fill-mode: forwards; }
+  .detail-cover-02 { animation: coverOneIn 1000ms cubic-bezier(0.770, 0, 0.175, 1); animation-fill-mode: forwards; animation-delay: 150ms; }
+  .detail-cover-03 { animation: coverOneIn 1000ms cubic-bezier(0.770, 0, 0.175, 1); animation-fill-mode: forwards; animation-delay: 300ms; }
 
 </style>
 
@@ -190,7 +222,7 @@
   import navigation from '@/components/navigation.vue'
   export default {
     transition: {
-      name: 'homeFade',
+      name: 'aFade',
       mode: 'out-in'
     },
     components: { navigation },
@@ -216,6 +248,12 @@
       const aboutCover = document.querySelector('.about-cover')
 
       navTrigger.addEventListener('click', () => {
+        aboutCover.classList.add('about-cover-active')
+      })
+
+      let homeLink = document.querySelector('.home-link')
+
+      homeLink.addEventListener('click', () => {
         aboutCover.classList.add('about-cover-active')
       })
 
