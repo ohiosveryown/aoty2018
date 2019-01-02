@@ -214,7 +214,7 @@
     top: 0; left: 0;
     z-index: var(--zmax);
     width: 100vw; height: 35vh;
-    background: #28262a;
+    background: #0b0b0b;
     transform: scaleX(0);
     transform-origin: left;
     transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1);

@@ -162,7 +162,7 @@
     top: 0; left: 0;
     z-index: var(--zmax);
     width: 100vw; height: 35vh;
-    background: #28262a;
+    background: #0b0b0b;
     transform: scaleX(0);
     transform-origin: left;
     transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1);
@@ -188,14 +188,14 @@
   // .homeFade-leave-active { transition: all 100ms ease; }
   // .homeFade-enter, .homeFade-active { opacity: 0; }
 
-  .aFade-leave-active { transition: all 3000ms ease; opacity: 0; }
+  // .aFade-leave-active { transition: all 3000ms ease; opacity: 0; }
 
   .detail-cover-01, .detail-cover-02, .detail-cover-03 {
     position: fixed;
     top: 0; left: 0;
     z-index: var(--zmax);
     width: 100vw; height: 35vh;
-    background: #28262a;
+    background: #0b0b0b;
     transform: scaleX(1);
     transform-origin: right;
     will-change: transform;
@@ -221,10 +221,10 @@
 <script>
   import navigation from '@/components/navigation.vue'
   export default {
-    transition: {
-      name: 'aFade',
-      mode: 'out-in'
-    },
+    // transition: {
+    //   name: 'aFade',
+    //   mode: 'out-in'
+    // },
     components: { navigation },
     mounted() {
       // const, let, var
@@ -251,8 +251,8 @@
         aboutCover.classList.add('about-cover-active')
       })
 
+      // next page transition
       let homeLink = document.querySelector('.home-link')
-
       homeLink.addEventListener('click', () => {
         aboutCover.classList.add('about-cover-active')
       })
