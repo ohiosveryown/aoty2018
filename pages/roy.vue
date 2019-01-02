@@ -48,7 +48,7 @@
 
     <!-- 🎧 -->
     <li class="linkFour">
-      <nuxt-link to='/rh/harlan-and-alondra'>
+      <nuxt-link to='/rh/pieces-of-a-man'>
         <h3 class="f-mabry tar"><span class="op-2">RH </span>2</h3>
         <figure class="">
           <img class="" src="@/assets/img/rh/02.jpg" alt="Mick Jenkins">
