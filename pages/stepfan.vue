@@ -15,6 +15,8 @@
   <div class="detail-cover-02"/>
   <div class="detail-cover-03"/>
 
+  <Scrolling/>
+
   <!-- friends -->
   <h5 class="op-5 subtitle f-space">Stepfan's List</h5>
 
@@ -220,12 +222,13 @@
 <!-- logic -->
 <script>
   import navigation from '@/components/navigation.vue'
+  import Scrolling from '@/components/Scrolling.vue'
   export default {
     // transition: {
     //   name: 'aFade',
     //   mode: 'out-in'
     // },
-    components: { navigation },
+    components: { navigation, Scrolling },
     mounted() {
       // const, let, var
       const list = document.querySelector('ul')
