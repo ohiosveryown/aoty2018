@@ -8,6 +8,9 @@
   <div class="cover-03"/>
   <div class="about-cover"/>
 
+  <!-- friends -->
+  <h5 class="op-5 subtitle f-space">Matt's List</h5>
+
   <ul class="">
     <!-- 🎧 -->
     <li class="linkOne">
@@ -150,6 +153,17 @@
 <style scoped lang="scss">
   @import '@/assets/mq.scss';
   // main styles
+  .subtitle {
+    display: flex;
+    position: absolute;
+    top: 4rem; left: 50%;
+    transform: translateX(-50%);
+    max-width: var(--max_width);
+    width: 88vw;
+
+    @include breakpoint(md) { top: 5.6rem; }
+  }
+
   ul {
     display: flex;
     align-items: center;
@@ -164,12 +178,11 @@
 
   li {
     flex: 0 0 80%;
-    margin-top: -1.6rem;
     margin-right: 1.6rem;
     height: 64vh;
     transition: transform 250ms ease;
     will-change: transform;
-    @include breakpoint(md)  { height: 40rem; }
+    @include breakpoint(md)  { margin-top: -1.6rem; height: 40rem; }
     @include breakpoint(mdl) { margin-top: -8rem; height: 28.8rem; flex-basis: 40%; }
     @include breakpoint(lg)  { margin-top: -11.2rem; }
   }

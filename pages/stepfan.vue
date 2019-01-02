@@ -9,7 +9,8 @@
   <div class="cover-03"/>
   <div class="about-cover"/>
 
-  <span class="op-5 subtitle f-space">Stepfan's List</span>
+  <!-- friends -->
+  <h5 class="op-5 subtitle f-space">Stepfan's List</h5>
 
   <ul class="">
     <!-- 🎧 -->

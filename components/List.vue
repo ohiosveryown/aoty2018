@@ -6,6 +6,9 @@
     <div class="cover-02"/>
     <div class="cover-03"/>
 
+    <!-- friends -->
+    <h5 class="op-5 subtitle f-space">Matt's List</h5>
+
     <ul class="">
 
       <!-- 🎧 -->
@@ -89,6 +92,16 @@
 <!-- style -->
 <style scoped lang="scss">
   @import '@/assets/mq.scss';
+  .subtitle {
+    display: flex;
+    position: absolute;
+    top: 4rem; left: 50%;
+    transform: translateX(-50%);
+    max-width: var(--max_width);
+    width: 88vw;
+
+    @include breakpoint(md) { top: 5.6rem; }
+  }
 
   ul {
     display: flex;
