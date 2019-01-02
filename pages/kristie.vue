@@ -27,7 +27,7 @@
         <h3 class="f-mabry tar"><span class="op-2">KF </span>5</h3>
         <figure class="">
           <img class="" src="@/assets/img/k2/05.jpg" alt="Rainbow Kitten Surprise">
-          <figcaption class="f-mabry">How To: Friend<span>, Love, Freefall</span>  — Alternative</figcaption>
+          <figcaption class="f-mabry">How To: Friend<span>, Love, Freefall</span> — Alternative</figcaption>
           <h5 class="f-space">Rainbow Kitten Surprise</h5>
         </figure>
       </nuxt-link>
@@ -52,7 +52,7 @@
         <h3 class="f-mabry tar"><span class="op-2">KF </span>3</h3>
         <figure class="">
           <img class="" src="@/assets/img/k2/03.jpg" alt="HONNE">
-          <figcaption class="f-mabry">Love Me / Love Me Not — Alternative</figcaption>
+          <figcaption class="f-mabry">Love Me <span>/ Love Me Not</span> — Alternative</figcaption>
           <h5 class="f-space">HONNE</h5>
         </figure>
       </nuxt-link>
