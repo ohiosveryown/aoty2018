@@ -24,8 +24,8 @@
           <a class="f-space op-5" href="https://twitter.com/cmykw_" target="_blank">@cmykw_</a>
         </li>
         <li class="mb-4">
-          <h3 class="f-mabry">Stefan's Top 5 Albums of the Year</h3>
-          <span class="f-space op-5">check back later</span>
+          <nuxt-link to='/stepfan'><h3 class="mb-0 f-mabry">Stefan's Top 5 Albums of the Year</h3></nuxt-link>
+          <a class="f-space op-5" href="https://twitter.com/stepfdelaghetto" target="_blank">@stepfandelaghetto</a>
         </li>
         <!-- <li class="mb-4">
           <nuxt-link to='/'><h3 class="mb-0 f-mabry">Stepfan's Top 5 Albums of the Year</h3></nuxt-link>

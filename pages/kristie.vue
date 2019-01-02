@@ -272,6 +272,11 @@
       //   coverTwo.classList.add('cover-02-active')
       //   coverThree.classList.add('cover-03-active')
       // })
+      linkNext.addEventListener('click', () => {
+        coverOne.classList.add('cover-01-active')
+        coverTwo.classList.add('cover-02-active')
+        coverThree.classList.add('cover-03-active')
+      })
     }
   }
 

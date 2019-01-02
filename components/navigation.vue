@@ -4,7 +4,7 @@
 
     <div class="logotype home-link f-mabry">
       <nuxt-link to="/">
-        <h3>2018—Albums</h3>
+        <h3>2018—albums</h3>
       </nuxt-link>
     </div>
 

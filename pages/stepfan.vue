@@ -2,6 +2,7 @@
 <template>
 <main>
 
+  <navigation/>
   <!-- 🛌 -->
   <div class="cover-01"/>
   <div class="cover-02"/>
@@ -11,132 +12,73 @@
   <ul class="">
     <!-- 🎧 -->
     <li class="linkOne">
-      <nuxt-link to='/care-for-me'>
-        <h3 class="f-mabry tar"><span class="op-2">MP </span>10</h3>
+      <nuxt-link to='/sr/white-bronco'>
+        <h3 class="f-mabry tar"><span class="op-2">SR </span>5</h3>
         <figure class="">
-          <img class="" src="@/assets/img/matt/10.jpg" alt="Saba">
-          <figcaption class="f-mabry">CARE FOR ME — Rap/Hip-Hop</figcaption>
-          <h5 class="f-space">Saba</h5>
+          <img class="" src="@/assets/img/sr/05.jpg" alt="Action Bronson">
+          <figcaption class="f-mabry">White Bronco — Rap/Hip-Hop</figcaption>
+          <h5 class="f-space">Action Bronson</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
+    <!-- 🎧 -->
     <li class="linkTwo">
-      <nuxt-link to='/kod'>
-        <h3 class="f-mabry tar"><span class="op-2">MP </span>9</h3>
+      <nuxt-link to='/sr/fetti'>
+        <h3 class="f-mabry tar"><span class="op-2">SR </span>4</h3>
         <figure class="">
-          <img class="" src="@/assets/img/matt/09.jpg" alt="J.Cole">
-          <figcaption class="f-mabry">KOD — Rap/Hip-Hop</figcaption>
-          <h5 class="f-space">J.Cole</h5>
+          <img class="" src="@/assets/img/sr/04.jpg" alt="Curren$y, Freddie Gibbs">
+          <figcaption class="f-mabry">Fetti — Rap/Hip-Hop</figcaption>
+          <h5 class="f-space">Curren$y, Freddie Gibbs</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
     <li class="linkThree">
-      <nuxt-link to='/tell-me-how-you'>
-        <h3 class="f-mabry tar"><span class="op-2">MP </span>8</h3>
+      <nuxt-link to='/sr/time'>
+        <h3 class="f-mabry tar"><span class="op-2">SR </span>3</h3>
         <figure class="">
-          <img class="" src="@/assets/img/matt/08.jpg" alt="Coutney Barnett">
-          <figcaption class="f-mabry">Tell Me How You <span>Really Feel</span> — Alternative</figcaption>
-          <h5 class="f-space">Coutney Barnett</h5>
+          <img class="" src="@/assets/img/sr/03.jpg" alt="Louis Cole">
+          <figcaption class="f-mabry">Time — R&amp;B/Soul</figcaption>
+          <h5 class="f-space">Louis Cole</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
     <li class="linkFour">
-      <nuxt-link to='/fm'>
-        <h3 class="f-mabry tar"><span class="op-2">MP </span>7</h3>
+      <nuxt-link to='/sr/harlan-and-alondra'>
+        <h3 class="f-mabry tar"><span class="op-2">SR </span>2</h3>
         <figure class="">
-          <img class="" src="@/assets/img/matt/07.jpg" alt="Vince Staples">
-          <figcaption class="f-mabry">FM! — Rap/Hip-Hop</figcaption>
-          <h5 class="f-space">Vince Staples</h5>
+          <img class="" src="@/assets/img/sr/02.jpg" alt="Buddy">
+          <figcaption class="f-mabry">Harlan &amp; Alondra — Rap/Hip-Hop</figcaption>
+          <h5 class="f-space">Buddy</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
     <li class="linkFive">
-      <nuxt-link to='/running-to-the-sun'>
-        <h3 class="f-mabry tar"><span class="op-2">MP </span>6</h3>
+      <nuxt-link to='/sr/fever'>
+        <h3 class="f-mabry tar"><span class="op-2">SR </span>1</h3>
         <figure class="">
-          <img class="" src="@/assets/img/matt/06.jpg" alt="St. Beauty">
-          <figcaption class="f-mabry">Running to the Sun — R&amp;B</figcaption>
-          <h5 class="f-space">St. Beauty</h5>
-        </figure>
-      </nuxt-link>
-    </li>
-
-    <!-- 🎧 -->
-    <li class="linkSix">
-      <nuxt-link to='/tranquility-base'>
-        <h3 class="f-mabry tar"><span class="op-2">MP </span>5</h3>
-        <figure class="">
-          <img class="" src="@/assets/img/matt/05.jpg" alt="Arctic Monkeys">
-          <figcaption class="f-mabry">Tranquility Base <span>Hotel &amp; Casino</span> — Alternative</figcaption>
-          <h5 class="f-space">Arctic Monkeys</h5>
-        </figure>
-      </nuxt-link>
-    </li>
-
-    <!-- 🎧 -->
-    <li class="linkSeven">
-      <nuxt-link to='/con-todo-el-mundo'>
-        <h3 class="f-mabry tar"><span class="op-2">MP </span>4</h3>
-        <figure class="">
-          <img class="" src="@/assets/img/matt/04.jpg" alt="Khruangbin">
-          <figcaption class="f-mabry">Con Todo <span>El Mundo</span> — Alternative</figcaption>
-          <h5 class="f-space">Khruangbin</h5>
-        </figure>
-      </nuxt-link>
-    </li>
-
-    <!-- 🎧 -->
-    <li class="linkEight">
-      <nuxt-link to='/isolation'>
-        <h3 class="f-mabry tar"><span class="op-2">MP </span>3</h3>
-        <figure class="">
-          <img class="" src="@/assets/img/matt/03.jpg" alt="Kali Uchis">
-          <figcaption class="f-mabry">Isolation — R&amp;B/Soul</figcaption>
-          <h5 class="f-space">Kali Uchis</h5>
-        </figure>
-      </nuxt-link>
-    </li>
-
-    <!-- 🎧 -->
-    <li class="linkNine">
-      <nuxt-link to='/feels'>
-        <h3 class="f-mabry tar"><span class="op-2">MP </span>2</h3>
-        <figure class="">
-          <img class="" src="@/assets/img/matt/02.jpg" alt="Snoh Aalegra">
-          <figcaption class="f-mabry">FEELS — R&amp;B/Soul</figcaption>
-          <h5 class="f-space">Snoh Aalegra</h5>
-        </figure>
-      </nuxt-link>
-    </li>
-
-    <!-- 🎧 -->
-    <li class="linkTen">
-      <nuxt-link to='/whack-world'>
-        <h3 class="f-mabry tar"><span class="op-2">MP </span>1</h3>
-        <figure class="">
-          <img class="" src="@/assets/img/matt/01.jpg" alt="Tierra Whack">
-          <figcaption class="f-mabry">Whack World — Rap/Hip-Hop</figcaption>
-          <h5 class="f-space">Tierra Whack</h5>
+          <img class="" src="@/assets/img/sr/01.jpg" alt="Black Milk">
+          <figcaption class="f-mabry">FEVER — Rap/Hip-Hop</figcaption>
+          <h5 class="f-space">Black Milk</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- ➡️ -->
     <li class="linkNext">
-      <nuxt-link to='/stepfan'>
+      <nuxt-link to='/kristie'>
         <h3 class="f-mabry tar">⇝</h3>
         <figure class="">
           <img class="" src="@/assets/img/blank.jpg" alt="Next List">
           <figcaption class="f-mabry">Next Album List</figcaption>
-          <h5 class="f-space">Presented by Stepfan</h5>
+          <h5 class="f-space">Presented by Kristie</h5>
         </figure>
       </nuxt-link>
     </li>
@@ -223,16 +165,22 @@
   .cover-02-active { transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1) 150ms; }
   .cover-03-active { transition: all 800ms cubic-bezier(0.770, 0, 0.175, 1) 300ms; }
 
+  .homeFade-enter-active { transition: all 1600ms ease; }
+  .homeFade-leave-active { transition: all 100ms ease; }
+  .homeFade-enter, .homeFade-active { opacity: 0; }
+
 </style>
 
 
 <!-- logic -->
 <script>
-
+  import navigation from '@/components/navigation.vue'
   export default {
-    // transition: {
-    //   name: 'main'
-    // },
+    transition: {
+      name: 'homeFade',
+      mode: 'out-in'
+    },
+    components: { navigation },
     mounted() {
       // const, let, var
       const list = document.querySelector('ul')
@@ -267,11 +215,11 @@
       let linkThree = document.querySelector('.linkThree')
       let linkFour = document.querySelector('.linkFour')
       let linkFive = document.querySelector('.linkFive')
-      let linkSix = document.querySelector('.linkSix')
-      let linkSeven = document.querySelector('.linkSeven')
-      let linkEight = document.querySelector('.linkEight')
-      let linkNine = document.querySelector('.linkNine')
-      let linkTen = document.querySelector('.linkTen')
+      // let linkSix = document.querySelector('.linkSix')
+      // let linkSeven = document.querySelector('.linkSeven')
+      // let linkEight = document.querySelector('.linkEight')
+      // let linkNine = document.querySelector('.linkNine')
+      // let linkTen = document.querySelector('.linkTen')
       let linkNext = document.querySelector('.linkNext')
       // // link cover logic
       linkOne.addEventListener('click', () => {
@@ -299,31 +247,31 @@
         coverTwo.classList.add('cover-02-active')
         coverThree.classList.add('cover-03-active')
       })
-      linkSix.addEventListener('click', () => {
-        coverOne.classList.add('cover-01-active')
-        coverTwo.classList.add('cover-02-active')
-        coverThree.classList.add('cover-03-active')
-      })
-      linkSeven.addEventListener('click', () => {
-        coverOne.classList.add('cover-01-active')
-        coverTwo.classList.add('cover-02-active')
-        coverThree.classList.add('cover-03-active')
-      })
-      linkEight.addEventListener('click', () => {
-        coverOne.classList.add('cover-01-active')
-        coverTwo.classList.add('cover-02-active')
-        coverThree.classList.add('cover-03-active')
-      })
-      linkNine.addEventListener('click', () => {
-        coverOne.classList.add('cover-01-active')
-        coverTwo.classList.add('cover-02-active')
-        coverThree.classList.add('cover-03-active')
-      })
-      linkTen.addEventListener('click', () => {
-        coverOne.classList.add('cover-01-active')
-        coverTwo.classList.add('cover-02-active')
-        coverThree.classList.add('cover-03-active')
-      })
+      // linkSix.addEventListener('click', () => {
+      //   coverOne.classList.add('cover-01-active')
+      //   coverTwo.classList.add('cover-02-active')
+      //   coverThree.classList.add('cover-03-active')
+      // })
+      // linkSeven.addEventListener('click', () => {
+      //   coverOne.classList.add('cover-01-active')
+      //   coverTwo.classList.add('cover-02-active')
+      //   coverThree.classList.add('cover-03-active')
+      // })
+      // linkEight.addEventListener('click', () => {
+      //   coverOne.classList.add('cover-01-active')
+      //   coverTwo.classList.add('cover-02-active')
+      //   coverThree.classList.add('cover-03-active')
+      // })
+      // linkNine.addEventListener('click', () => {
+      //   coverOne.classList.add('cover-01-active')
+      //   coverTwo.classList.add('cover-02-active')
+      //   coverThree.classList.add('cover-03-active')
+      // })
+      // linkTen.addEventListener('click', () => {
+      //   coverOne.classList.add('cover-01-active')
+      //   coverTwo.classList.add('cover-02-active')
+      //   coverThree.classList.add('cover-03-active')
+      // })
       linkNext.addEventListener('click', () => {
         coverOne.classList.add('cover-01-active')
         coverTwo.classList.add('cover-02-active')
