@@ -36,6 +36,10 @@
           <a class="f-space op-5" href="https://twitter.com/Old_Orleans" target="_blank">@old_orleans</a>
         </li>
         <li class="mb-4">
+          <nuxt-link to='/jordan'><h3 class="mb-0 f-mabry">Jordan's Top 5 Albums of the Year</h3></nuxt-link>
+          <a class="f-space op-5" href="https://instagram.com/jordanjung" target="_blank">@jordanjung</a>
+        </li>
+        <li class="mb-4">
           <h3 class="f-mabry">More Lists Coming Soon</h3>
           <span class="f-space op-5">check back later</span>
         </li>

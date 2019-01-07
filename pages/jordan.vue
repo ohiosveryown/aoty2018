@@ -18,77 +18,77 @@
   <Scrolling/>
 
   <!-- friends -->
-  <h5 class="op-5 subtitle f-space">Roy's List</h5>
+  <h5 class="op-5 subtitle f-space">Jordan's List</h5>
 
   <ul class="">
     <!-- 🎧 -->
     <li class="linkOne">
-      <nuxt-link to='/rh/no-rain-no-flowers'>
-        <h3 class="f-mabry tar"><span class="op-2">RH </span>5</h3>
+      <nuxt-link to='/jj/isolation'>
+        <h3 class="f-mabry tar"><span class="op-2">JJ </span>4</h3>
         <figure class="">
-          <img class="" src="@/assets/img/rh/05.jpg" alt="Sabrina Claudio">
-          <figcaption class="f-mabry">No Rain, No Flowers — R&amp;B/Soul</figcaption>
-          <h5 class="f-space">Sabrina Claudio</h5>
+          <img class="" src="@/assets/img/jj/05.jpg" alt="Travis Scott">
+          <figcaption class="f-mabry">Astroworld — Rap/Hip-Hop</figcaption>
+          <h5 class="f-space">Travis Scott</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
     <li class="linkTwo">
-      <nuxt-link to='/rh/green'>
-        <h3 class="f-mabry tar"><span class="op-2">RH </span>4</h3>
+      <nuxt-link to='/jj/isolation'>
+        <h3 class="f-mabry tar"><span class="op-2">JJ </span>4</h3>
         <figure class="">
-          <img class="" src="@/assets/img/rh/04.jpg" alt="Robohands">
-          <figcaption class="f-mabry">Green — Jazz</figcaption>
-          <h5 class="f-space">Robohands</h5>
+          <img class="" src="@/assets/img/matt/03.jpg" alt="Travis Scott">
+          <figcaption class="f-mabry">Astroworld — Rap/Hip-Hop</figcaption>
+          <h5 class="f-space">Travis Scott</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
     <li class="linkThree">
-      <nuxt-link to='/rh/november'>
-        <h3 class="f-mabry tar"><span class="op-2">RH </span>3</h3>
+      <nuxt-link to='/jj/love-me-love-me-not'>
+        <h3 class="f-mabry tar"><span class="op-2">JJ </span>3</h3>
         <figure class="">
-          <img class="" src="@/assets/img/rh/03.jpg" alt="SiR">
-          <figcaption class="f-mabry">November — R&amp;B/Soul</figcaption>
-          <h5 class="f-space">SiR</h5>
+          <img class="" src="@/assets/img/k2/03.jpg" alt="HONNE">
+          <figcaption class="f-mabry">Love Me <span>/ Love Me Not</span> — Alternative</figcaption>
+          <h5 class="f-space">HONNE</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
     <li class="linkFour">
-      <nuxt-link to='/rh/pieces-of-a-man'>
-        <h3 class="f-mabry tar"><span class="op-2">RH </span>2</h3>
+      <nuxt-link to='/jj/good-thing'>
+        <h3 class="f-mabry tar"><span class="op-2">JJ </span>2</h3>
         <figure class="">
-          <img class="" src="@/assets/img/rh/02.jpg" alt="Mick Jenkins">
-          <figcaption class="f-mabry">Pieces of a Man — Rap/Hip-Hop</figcaption>
-          <h5 class="f-space">Mick Jenkins</h5>
+          <img class="" src="@/assets/img/k2/02.jpg" alt="Leon Bridges">
+          <figcaption class="f-mabry">Good Thing — R&amp;B/Soul</figcaption>
+          <h5 class="f-space">Leon Bridges</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
     <li class="linkFive">
-      <nuxt-link to='/rh/fetti'>
-        <h3 class="f-mabry tar"><span class="op-2">RH </span>1</h3>
+      <nuxt-link to='/jj/hive-mind'>
+        <h3 class="f-mabry tar"><span class="op-2">JJ </span>1</h3>
         <figure class="">
-          <img class="" src="@/assets/img/sr/04.jpg" alt="Curren$y, Freddie Gibbs">
-          <figcaption class="f-mabry">Fetti — Rap/Hip-Hop</figcaption>
-          <h5 class="f-space">Curren$y, Freddie Gibbs</h5>
+          <img class="" src="@/assets/img/k2/01.jpg" alt="The Internet">
+          <figcaption class="f-mabry">Hive Mind — R&amp;B</figcaption>
+          <h5 class="f-space">The Internet</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- ➡️ -->
     <li class="linkNext">
-      <nuxt-link to='/jordan'>
+      <nuxt-link to='/'>
         <h3 class="f-mabry tar">⇝</h3>
         <figure class="">
           <img class="" src="@/assets/img/blank.jpg" alt="Next List">
           <figcaption class="f-mabry">Next Album List</figcaption>
-          <h5 class="f-space">Presented by Jordan</h5>
+          <h5 class="f-space">Presented by Matt</h5>
         </figure>
       </nuxt-link>
     </li>
