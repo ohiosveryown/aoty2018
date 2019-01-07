@@ -23,11 +23,11 @@
   <ul class="">
     <!-- 🎧 -->
     <li class="linkOne">
-      <nuxt-link to='/jj/streams-of-thought'>
+      <nuxt-link to='/jj/isolation'>
         <h3 class="f-mabry tar"><span class="op-2">JJ </span>5</h3>
         <figure class="">
-          <img class="" src="@/assets/img/jj/05.jpg" alt="Black Thought">
-          <figcaption class="f-mabry">Streams of Thought <span>Vol.2</span> — Rap/Hip-Hop</figcaption>
+          <img class="" src="@/assets/img/jj/01.jpg" alt="Black Thought">
+          <figcaption class="f-mabry">Streams of Thought Vol.1 — Rap/Hip-Hop</figcaption>
           <h5 class="f-space">Black Thought</h5>
         </figure>
       </nuxt-link>
@@ -35,10 +35,10 @@
 
     <!-- 🎧 -->
     <li class="linkTwo">
-      <nuxt-link to='/jj/kids-see-ghosts'>
+      <nuxt-link to='/jj/isolation'>
         <h3 class="f-mabry tar"><span class="op-2">JJ </span>4</h3>
         <figure class="">
-          <img class="" src="@/assets/img/jj/04.jpg" alt="Kids See Ghosts">
+          <img class="" src="@/assets/img/matt/03.jpg" alt="Kids See Ghosts">
           <figcaption class="f-mabry">Kids See Ghosts — Rap/Hip-Hop</figcaption>
           <h5 class="f-space">Kids See Ghosts</h5>
         </figure>
@@ -47,10 +47,10 @@
 
     <!-- 🎧 -->
     <li class="linkThree">
-      <nuxt-link to='/jj/black-panther'>
+      <nuxt-link to='/jj/love-me-love-me-not'>
         <h3 class="f-mabry tar"><span class="op-2">JJ </span>3</h3>
         <figure class="">
-          <img class="" src="@/assets/img/jj/03.jpg" alt="HONNE">
+          <img class="" src="@/assets/img/k2/03.jpg" alt="HONNE">
           <figcaption class="f-mabry">Black Panther — Rap/Hip-Hop</figcaption>
           <h5 class="f-space">Various</h5>
         </figure>
@@ -59,10 +59,10 @@
 
     <!-- 🎧 -->
     <li class="linkFour">
-      <nuxt-link to='/jj/daytona'>
+      <nuxt-link to='/jj/good-thing'>
         <h3 class="f-mabry tar"><span class="op-2">JJ </span>2</h3>
         <figure class="">
-          <img class="" src="@/assets/img/jj/02.jpg" alt="Pusha-T">
+          <img class="" src="@/assets/img/k2/02.jpg" alt="Pusha-T">
           <figcaption class="f-mabry">Daytona — Rap/Hip/Hop</figcaption>
           <h5 class="f-space">Pusha-T</h5>
         </figure>
@@ -71,10 +71,10 @@
 
     <!-- 🎧 -->
     <li class="linkFive">
-      <nuxt-link to='/jj/astroworld'>
+      <nuxt-link to='/jj/hive-mind'>
         <h3 class="f-mabry tar"><span class="op-2">JJ </span>1</h3>
         <figure class="">
-          <img class="" src="@/assets/img/jj/01.jpg" alt="Travis Scott">
+          <img class="" src="@/assets/img/k2/01.jpg" alt="Travis Scott">
           <figcaption class="f-mabry">Astroworld — Rap/Hip-Hop</figcaption>
           <h5 class="f-space">Travis Scott</h5>
         </figure>
@@ -83,12 +83,12 @@
 
     <!-- ➡️ -->
     <li class="linkNext">
-      <nuxt-link to='/scott'>
+      <nuxt-link to='/'>
         <h3 class="f-mabry tar">⇝</h3>
         <figure class="">
           <img class="" src="@/assets/img/blank.jpg" alt="Next List">
           <figcaption class="f-mabry">Next Album List</figcaption>
-          <h5 class="f-space">Presented by Scott</h5>
+          <h5 class="f-space">Presented by Matt</h5>
         </figure>
       </nuxt-link>
     </li>
