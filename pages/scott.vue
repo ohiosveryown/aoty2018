@@ -47,7 +47,7 @@
 
     <!-- 🎧 -->
     <li class="linkThree">
-      <nuxt-link to='/st/love-me-love-me-not'>
+      <nuxt-link to='/st/sleep'>
         <h3 class="f-mabry tar"><span class="op-2">ST </span>3</h3>
         <figure class="">
           <img class="" src="@/assets/img/st/03.jpg" alt="The Sciences">
@@ -59,7 +59,7 @@
 
     <!-- 🎧 -->
     <li class="linkFour">
-      <nuxt-link to='/st/good-thing'>
+      <nuxt-link to='/st/hive-mind'>
         <h3 class="f-mabry tar"><span class="op-2">ST </span>2</h3>
         <figure class="">
           <img class="" src="@/assets/img/k2/01.jpg" alt="The Internet">
@@ -71,7 +71,7 @@
 
     <!-- 🎧 -->
     <li class="linkFive">
-      <nuxt-link to='/st/hive-mind'>
+      <nuxt-link to='/st/lush'>
         <h3 class="f-mabry tar"><span class="op-2">ST </span>1</h3>
         <figure class="">
           <img class="" src="@/assets/img/st/01.jpg" alt="Snail Mail">
