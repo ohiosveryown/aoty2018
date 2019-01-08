@@ -18,65 +18,65 @@
   <Scrolling/>
 
   <!-- friends -->
-  <h5 class="op-5 subtitle f-space">Jordan's List</h5>
+  <h5 class="op-5 subtitle f-space">Scott's List</h5>
 
   <ul class="">
     <!-- 🎧 -->
     <li class="linkOne">
-      <nuxt-link to='/jj/isolation'>
-        <h3 class="f-mabry tar"><span class="op-2">JJ </span>5</h3>
+      <nuxt-link to='/st/astroworld'>
+        <h3 class="f-mabry tar"><span class="op-2">ST </span>5</h3>
         <figure class="">
-          <img class="" src="@/assets/img/jj/01.jpg" alt="Black Thought">
-          <figcaption class="f-mabry">Streams of Thought Vol.1 — Rap/Hip-Hop</figcaption>
-          <h5 class="f-space">Black Thought</h5>
+          <img class="" src="@/assets/img/jj/01.jpg" alt="Travis Scott">
+          <figcaption class="f-mabry">Astroworld</figcaption>
+          <h5 class="f-space">Travis Scott</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
     <li class="linkTwo">
-      <nuxt-link to='/jj/isolation'>
-        <h3 class="f-mabry tar"><span class="op-2">JJ </span>4</h3>
+      <nuxt-link to='/st/tell-me-how-you'>
+        <h3 class="f-mabry tar"><span class="op-2">ST </span>4</h3>
         <figure class="">
-          <img class="" src="@/assets/img/matt/03.jpg" alt="Kids See Ghosts">
-          <figcaption class="f-mabry">Kids See Ghosts — Rap/Hip-Hop</figcaption>
-          <h5 class="f-space">Kids See Ghosts</h5>
+          <img class="" src="@/assets/img/matt/08.jpg" alt="Courtney Barnett">
+          <figcaption class="f-mabry">Tell Me How You <span>Really Feel</span> — Alternative</figcaption>
+          <h5 class="f-space">Courtney Barnett</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
     <li class="linkThree">
-      <nuxt-link to='/jj/love-me-love-me-not'>
-        <h3 class="f-mabry tar"><span class="op-2">JJ </span>3</h3>
+      <nuxt-link to='/st/love-me-love-me-not'>
+        <h3 class="f-mabry tar"><span class="op-2">ST </span>3</h3>
         <figure class="">
-          <img class="" src="@/assets/img/k2/03.jpg" alt="HONNE">
-          <figcaption class="f-mabry">Black Panther — Rap/Hip-Hop</figcaption>
-          <h5 class="f-space">Various</h5>
+          <img class="" src="@/assets/img/st/03.jpg" alt="The Sciences">
+          <figcaption class="f-mabry">Sleep — Rock</figcaption>
+          <h5 class="f-space">The Sciences</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
     <li class="linkFour">
-      <nuxt-link to='/jj/good-thing'>
-        <h3 class="f-mabry tar"><span class="op-2">JJ </span>2</h3>
+      <nuxt-link to='/st/good-thing'>
+        <h3 class="f-mabry tar"><span class="op-2">ST </span>2</h3>
         <figure class="">
-          <img class="" src="@/assets/img/k2/02.jpg" alt="Pusha-T">
-          <figcaption class="f-mabry">Daytona — Rap/Hip/Hop</figcaption>
-          <h5 class="f-space">Pusha-T</h5>
+          <img class="" src="@/assets/img/k2/01.jpg" alt="The Internet">
+          <figcaption class="f-mabry">Hive Mind — R&amp;B</figcaption>
+          <h5 class="f-space">The Internet</h5>
         </figure>
       </nuxt-link>
     </li>
 
     <!-- 🎧 -->
     <li class="linkFive">
-      <nuxt-link to='/jj/hive-mind'>
-        <h3 class="f-mabry tar"><span class="op-2">JJ </span>1</h3>
+      <nuxt-link to='/st/hive-mind'>
+        <h3 class="f-mabry tar"><span class="op-2">ST </span>1</h3>
         <figure class="">
-          <img class="" src="@/assets/img/k2/01.jpg" alt="Travis Scott">
-          <figcaption class="f-mabry">Astroworld — Rap/Hip-Hop</figcaption>
-          <h5 class="f-space">Travis Scott</h5>
+          <img class="" src="@/assets/img/st/01.jpg" alt="Snail Mail">
+          <figcaption class="f-mabry">Lush — Alternative</figcaption>
+          <h5 class="f-space">Snail Mail</h5>
         </figure>
       </nuxt-link>
     </li>
